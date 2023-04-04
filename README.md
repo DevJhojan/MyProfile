@@ -1,4 +1,5 @@
-### Hi there 👋
+# <h1>Jhojan D.</h1>
+### Welcome 👋
 
 <!--
 **jdtp125753/jdtp125753** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,7 +15,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-#<h1>Jhojan D.</h1>
+
+
 
 <p>Software and Videogames Programmer</p>
 

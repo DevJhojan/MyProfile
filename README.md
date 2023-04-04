@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<h1>Jhojan D.</h1>
+#<h1>Jhojan D.</h1>
 
 <p>Software and Videogames Programmer</p>
 

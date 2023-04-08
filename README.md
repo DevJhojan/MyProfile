@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 
 
-<p>Software and Videogames Programmer</p>
+### <p>Software and Videogames Programmer</p>
 
 [Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jdtp125753&show_icons=true&theme=radical)
 <br>

@@ -1,12 +1,12 @@
 # <h1>Jhojan D.</h1>
-### Welcome 👋
+## Welcome i am Jhojan Toro👋
 
 <!--
 **jdtp125753/jdtp125753** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on C#, Nextjs
+- 🔭 I’m currently working on C#, Angular
 - 🌱 I’m currently learning C#, .Net
 - 👯 I’m looking to collaborate on Xirox
 - 🤔 I’m looking for help with .Net

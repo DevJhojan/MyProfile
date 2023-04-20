@@ -1,6 +1,9 @@
 # <h1>Jhojan D.</h1>
 ## Welcome i am Jhojan Toro👋
 [![GitHub followers](https://img.shields.io/github/followers/jdtp125753?label=Follow&style=social)](https://github.com/jdtp125753)
+[![](https://img.shields.io/badge/FACEBOOK-blue)](https://www.facebook.com/profile.php?id=100089324563350)
+[![](https://img.shields.io/badge/LINKEDIN-grey)](https://www.linkedin.com/in/jhojan-d-toro-pérez-a032231a2/)
+[![](https://img.shields.io/badge/YOUTUBE-red)](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
 <!--
 **jdtp125753/jdtp125753** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

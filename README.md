@@ -1,6 +1,6 @@
 # <h1>Jhojan D.</h1>
 ## Welcome i am Jhojan Toro👋
-
+[![GitHub followers](https://img.shields.io/github/followers/timkpaine?label=Follow&style=social)](https://github.com/jdtp125753)
 <!--
 **jdtp125753/jdtp125753** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

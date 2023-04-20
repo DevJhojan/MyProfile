@@ -1,5 +1,5 @@
 # <h1>Jhojan D.</h1>
-## Welcome i am Jhojan Toro👋
+## Welcome, i am Jhojan Toro👋
 [![GitHub followers](https://img.shields.io/github/followers/jdtp125753?label=Follow&style=social)](https://github.com/jdtp125753)
 [![](https://img.shields.io/badge/FACEBOOK-blue)](https://www.facebook.com/profile.php?id=100089324563350)
 [![](https://img.shields.io/badge/LINKEDIN-grey)](https://www.linkedin.com/in/jhojan-d-toro-pérez-a032231a2/)

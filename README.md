@@ -22,11 +22,12 @@ Here are some ideas to get you started:
 
 
 ### <p>Software and Videogames Programmer</p>
+
 ## Estadísticas de GitHub
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jdtp125753)](https://github.com/jdtp125753/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jdtp125753&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=jdtp125753&layout=compact)](https://github.com/jdtp125753/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=jdtp125753&layout=compact&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
 
 <br>

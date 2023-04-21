@@ -7,25 +7,48 @@
 [![](https://img.shields.io/badge/LINKEDIN-grey)](https://www.linkedin.com/in/jhojan-d-toro-pérez-a032231a2/)
   
 
-<!--
-**jdtp125753/jdtp125753** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on C#, Angular
-- 🌱 I’m currently learning C#, .Net
-- 👯 I’m looking to collaborate on Xirox
-- 🤔 I’m looking for help with .Net
-- 💬 Ask me about C#
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
-
+<hr />
  
 **<p>Soy Desarrollador Junior con más de 2 años de experiencia en el desarrollo de paginas, aplicativos WEB y aplicativos de escritorio. Actualmente sigo desarrollándome, estudiando y Mejorando cada Día para así  poder evolucionar en este grandioso mundo de la Informática y el Desarrollo de Software</p>**
+ 
+<hr />
+
+<div align = "left">
+  
+## Tecnologias
+  
+```c#
+  
+public class skills {
+  
+  string [] lowLevel = new string() {
+  
+    "C#", "Java", "Python"
+  
+  };
+  
+  string [] WebFrontend = new string() {
+    
+    "HTML", "CSS", "Javascript", "Angular, "React"
+  
+  };
+  
+  string [] Backend = new string(){
+  
+    "C#", "Java", "Python"  
+  
+  };
+  
+  string [] DevOps = new string(){
+  
+    "Linux", "Windows"
+  
+  };
+  
+}
+```
+  
+<hr />
   
 
 
@@ -34,9 +57,13 @@ Here are some ideas to get you started:
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jdtp125753&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
 
 <hr />
-
+  
+## Los lenguajes más utilizados
+  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=jdtp125753&layout=compact&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
 
 <br>
+  
+</div>
   
 </div>

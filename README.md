@@ -29,7 +29,7 @@ public class skills {
   
   string [] WebFrontend = new string() {
     
-    "HTML", "CSS", "Javascript", "Angular, 
+    "HTML", "CSS", "Javascript", "Angular", 
     "React"
   
   };

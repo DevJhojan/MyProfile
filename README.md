@@ -47,10 +47,37 @@ public class skills {
   
 }
 ```
+</div>  
   
 <hr />
-  
 
+  ### Ultimos Videos de mi canal de Youtube
+  
+  <a href='https://youtu.be/wf7LTbpRlo0' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/wf7LTbpRlo0/mqdefault.jpg' alt='¿Que es C#?' />
+  </a>
+  
+  <a href='https://youtu.be/NpkxNGUgOyY' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/NpkxNGUgOyY/mqdefault.jpg' alt='¿Que es una clase?' />
+  </a>
+  
+  <a href='https://youtu.be/wwaplC0Bnzs' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/wwaplC0Bnzs/mqdefault.jpg' alt='¿Que es una función?' />
+  </a>
+  
+  <a href='https://youtu.be/SkpwsP4zJNg' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/SkpwsP4zJNg/mqdefault.jpg' alt='¿Que es un ciclo?' />
+  </a>
+  
+  
+  
+  <a href='https://youtu.be/QMfEOjFIl0k' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/QMfEOjFIl0k/mqdefault.jpg' alt='¿Que es la programamcion?' />
+  </a>
+  
+  <hr />
+  
+<div align = "left">
 
 ## Estadísticas de GitHub
 

@@ -13,6 +13,26 @@
  
 <hr />
 
+## Ultimos proyectos Trabajados
+
+  <a href='https://github.com/jdtp125753/WebTask' target='_blank'>
+    <img width='30%' src='./Image/WebTask/Tarea agregada.png' alt='WebTask' />
+  </a>
+
+  <a href='https://github.com/jdtp125753/WebCalculator' target='_blank'>
+    <img width='30%' src='./Image/WebCalculator/Operación.png' alt='WebCalculator' />
+
+<a href='https://github.com/jdtp125753/TaskConsole' target='_blank'>
+    <img width='30%' src='./Image/TaskConsole/TitleStaks.png' alt='Task Console' />
+  </a>
+
+
+  </a>
+
+
+
+<hr />
+
 <div align = "left">
   
 ## Tecnologias

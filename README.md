@@ -1,7 +1,8 @@
 <div align= "center">
   
 # Hola, mi nombre es Jhojan Toro👋
-[![GitHub followers](https://img.shields.io/github/followers/jdtp125753?label=Follow&style=social)](https://github.com/jdtp125753)
+![GitHub Followers](https://img.shields.io/github/followers/jdtp125753?style=social)
+  ![GitHub Followers](https://img.shields.io/github/stars/jdtp125753?style=social)
 [![Youtube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCxIGNpsrjzWgY1Eyai1by3A?style=social)](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
 [![](https://img.shields.io/badge/FACEBOOK-blue)](https://www.facebook.com/profile.php?id=100089324563350)
 [![](https://img.shields.io/badge/LINKEDIN-grey)](https://www.linkedin.com/in/jhojan-d-toro-pérez-a032231a2/)

@@ -18,7 +18,7 @@
 ## Ultimos proyectos Trabajados
 
   <a href='https://github.com/jdtp125753/WebTask' target='_blank'>
-    <img width='30%' src='./Image/WebTask/Title.png' alt='WebTask' />
+    <img width='50%' src='./Image/WebTask/Title.png' alt='WebTask' />
   </a>
 
   <a href='https://github.com/jdtp125753/WebCalculator' target='_blank'>

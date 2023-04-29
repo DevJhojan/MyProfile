@@ -7,8 +7,6 @@
 [![Facebook Profile](https://img.shields.io/badge/Facebook-8-100089324563350?style=social&logo=facebook)](https://www.facebook.com/profile.php?id=100089324563350)
 [![Linkedin Profile](https://img.shields.io/badge/LINKEDIN-40-grey?style=social&logo=linkedin)](https://www.linkedin.com/in/jhojan-d-toro-pérez-a032231a2/)
 
-
-  
 <hr />
  
 **<p>Soy Desarrollador Junior con más de 2 años de experiencia en el desarrollo de paginas, aplicativos WEB y aplicativos de escritorio. Actualmente sigo desarrollándome, estudiando y Mejorando cada Día para así  poder evolucionar en este grandioso mundo de la Informática y el Desarrollo de Software</p>**
@@ -17,21 +15,33 @@
 
 ## Ultimos proyectos Trabajados
 
-  <a href='https://github.com/jdtp125753/WebTask' target='_blank'>
-    <img width='70%' src='./Image/WebTask/Title.png' alt='WebTask' />
+<table >
+  <tr> 
+    <td>
+       <a href='https://github.com/jdtp125753/OnlineCashRegister' target='_blank'>
+        <img width='100%' src='./Image/chasRegister/Title2.png' alt='WebTask' />
+      </a>
+    </td>
+  <td>
+    <a href='https://github.com/jdtp125753/WebTask' target='_blank'>
+        <img width='100%' src='./Image/WebTask/Title.png' alt='WebTask' />
+      </a>
+  </td>
+  </tr> 
+  <tr>
+    <td>
+   <a href='https://github.com/jdtp125753/WebCalculator' target='_blank'>
+      <img width='100%' src='./Image/WebCalculator/Operación.png' alt='WebCalculator' />
+   </td>
+    <td>
+      <a href='https://github.com/jdtp125753/TaskConsole' target='_blank'>
+          <img width='100%' src='./Image/TaskConsole/TitleStaks.png' alt='Task Console' />
+        </a>
+    </td>
+  </tr>
   </a>
 
-  <a href='https://github.com/jdtp125753/WebCalculator' target='_blank'>
-    <img width='30%' src='./Image/WebCalculator/Operación.png' alt='WebCalculator' />
-
-<a href='https://github.com/jdtp125753/TaskConsole' target='_blank'>
-    <img width='30%' src='./Image/TaskConsole/TitleStaks.png' alt='Task Console' />
-  </a>
-
-
-  </a>
-
-
+</table>
 
 <hr />
 
@@ -73,8 +83,8 @@ public class skills {
   
 <hr />
 
-  ### Ultimos Videos de mi [canal de Youtube](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
-  
+### Ultimos Videos de mi [canal de Youtube](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
+
   <a href='https://youtu.be/wf7LTbpRlo0' target='_blank'>
     <img width='30%' src='https://img.youtube.com/vi/wf7LTbpRlo0/mqdefault.jpg' alt='¿Que es C#?' />
   </a>

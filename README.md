@@ -72,14 +72,15 @@
 ## Herramientas
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-
+![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-%23CC2927.svg?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
 
 </div>  
   
 <hr />
 
-### Ultimos Videos de mi canal de  [![Linkedin Profile](https://img.shields.io/badge/Youtube-grey?style=radical&logo=Youtube)](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
+### Ultimos Videos de mi canal de  [![Youtube](https://img.shields.io/badge/Youtube-red?style=radical&logo=Youtube)](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
 
   <a href='https://youtu.be/wf7LTbpRlo0' target='_blank'>
     <img width='30%' src='https://img.youtube.com/vi/wf7LTbpRlo0/mqdefault.jpg' alt='¿Que es C#?' />

@@ -47,45 +47,39 @@
 
 <hr />
 
-<div align = "left">
-  
-## Tecnologias
-  
-```c#
-  
-public class skills {
-  
-  string [] lowLevel = new string() {
-  
-    "C#", "Java", "Python"
-  
-  };
-  
-  string [] WebFrontend = new string() {
+<div align = "center">
     
-    "HTML", "CSS", "Javascript", "Angular", "React"
-  
-  };
-  
-  string [] Backend = new string(){
-  
-    "C#", "Java", "Python"  
-  
-  };
-  
-  string [] DevOps = new string(){
-  
-    "Linux", "Windows"
-  
-  };
-  
-}
-```
+## Lenguages de Programación
+![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+
+## Tecnologías y Frameworks
+### Backend
+![.Net](https://img.shields.io/badge/.NET-%235C2D91.svg?style=for-the-badge&logo=.net&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+
+
+### Frontend
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+
+## Herramientas
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+
+
+
 </div>  
   
 <hr />
 
-### Ultimos Videos de mi [canal de Youtube](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
+### Ultimos Videos de mi canal de  [![Linkedin Profile](https://img.shields.io/badge/Youtube-grey?style=radical&logo=Youtube)](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)
 
   <a href='https://youtu.be/wf7LTbpRlo0' target='_blank'>
     <img width='30%' src='https://img.youtube.com/vi/wf7LTbpRlo0/mqdefault.jpg' alt='¿Que es C#?' />

@@ -9,7 +9,7 @@
 
 <hr />
  
-**<p>Soy Desarrollador Junior con más de 2 años de experiencia en el desarrollo de paginas, aplicativos WEB y aplicativos de escritorio. Actualmente sigo desarrollándome, estudiando y Mejorando cada Día para así  poder evolucionar en este grandioso mundo de la Informática y el Desarrollo de Software</p>**
+**<p>Soy Desarrollador Junior con más de 2 años de experiencia en el desarrollo de paginas, aplicativos WEB y aplicativos de escritorio. Actualmente sigo desarrollándome, estudiando y mejorando cada día para poder evolucionar en este grandioso mundo de la informática y el desarrollo de software </p>**
  
 <hr />
 

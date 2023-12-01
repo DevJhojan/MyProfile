@@ -49,10 +49,12 @@
 
 <div align = "center">
     
-## Lenguages de Programación
+## Backend
 ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+
 
 
 ## Tecnologías y Frameworks
@@ -63,7 +65,13 @@
 ## Herramientas
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+
+## Con Conocimiento
 ![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+
 
 </div>  
   
@@ -99,13 +107,13 @@
 
 ## Estadísticas de GitHub
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jdtp125753&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DevJhojan&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
 
 <hr />
   
 ## Los lenguajes más utilizados
   
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=jdtp125753&layout=compact&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=DevJhojan&layout=compact&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
 
 <br>
   

@@ -1,6 +1,6 @@
 <div align= "center">
   
-# Hola, mi nombre es Jhojan Toro👋
+# Hola, mi nombre es Jhojan Toro
 ![GitHub Followers](https://img.shields.io/github/followers/DevJhojan?style=social) 
 ![GitHub stars](https://img.shields.io/github/stars/DevJhojan?style=social)
 [![Youtube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCxIGNpsrjzWgY1Eyai1by3A?style=social)](https://www.youtube.com/channel/UCxIGNpsrjzWgY1Eyai1by3A)

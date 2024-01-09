@@ -29,7 +29,7 @@
     
   </tr> 
   <tr>
-  <td>
+  <td colspan="2">
        <a href='https://github.com/jdtp125753/OnlineCashRegister' target='_blank'>
         <img width='100%' src='./Image/chasRegister/Title2.png' alt='WebTask' />
       </a>

@@ -34,11 +34,7 @@
         <img width='100%' src='./Image/chasRegister/Title2.png' alt='WebTask' />
       </a>
     </td>
-  <td>
-    <a href='https://github.com/jdtp125753/WebTask' target='_blank'>
-        <img width='100%' src='./Image/WebTask/Title.png' alt='WebTask' />
-      </a>
-  </td>
+  
     
   </tr>
   </a>

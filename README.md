@@ -33,9 +33,8 @@
 <table >
   <tr> 
     <td>
-      <a>
+      <a href='https://github.com/DevJhojan/space_files'>
         Configuration Archilinux
-        <br>
         <img width='100%' src='./Image/configuration/qtile/spacejob.png'>
       </a>
     </td> 

@@ -53,8 +53,8 @@
         </a>
     </td>
     <td>
-       <a href='https://github.com/DevJhojan/Onlineinventory' target='_blank'>
-        <img width='100%' src='./Image/chasRegister/Title2.png' alt='WebTask' />
+       <a href='https://github.com/DevJhojan/TaskConsole' target='_blank'>
+        <img width='100%' src='./Image/TaskConsole/TitleStaks.png' alt='WebTask' />
       </a>
     </td>
   </tr>
@@ -70,14 +70,14 @@
 
 ### Backend
 
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+
 [![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)](https://github.com/DevJhojan/ProjectsC-)
 
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)]
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### Frontend
-[![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)]()
+[![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)](https://github.com/DevJhojan/ProjectsAngular)
 
 ## Herramientas
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -93,7 +93,7 @@
 
 
 ## Sistemas operativos
-[![Arch](https://img.shields.io/badge/Arch%20Linux-%1793D1.svg?style=for-the-badge&logo=arch-linux&logoColor=white)](URL_DE_TU_PROYECTO_ARCH_LINUX)
+[![Arch](https://img.shields.io/badge/Arch%20Linux-%1793D1.svg?style=for-the-badge&logo=arch-linux&logoColor=white)](https://github.com/DevJhojan/space_files)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](URL_DE_TU_PROYECTO_WINDOWS)
 
 ## Con Conocimiento

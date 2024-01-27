@@ -10,7 +10,7 @@
 
 <hr />
  
-**<p> Soy programador Junior </p>** :fire: 
+**<p> Soy programador Junior :fire:</p>** 
  
 <hr />
 <div align = "left">
@@ -81,6 +81,10 @@
 ## Herramientas
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+[![NeoVim](https://img.shields.io/badge/NeoVim-%2357A143.svg?style=for-the-badge&logo=neovim&logoColor=white)](URL_DE_TU_PROYECTO_NEOVIM)
+[![VSCode](https://img.shields.io/badge/VSCode-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)](URL_DE_TU_PROYECTO_VSCODE)
+[![Visual Studio](https://img.shields.io/badge/Visual%20Studio-%235C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)](URL_DE_TU_PROYECTO_VISUAL_STUDIO)
+
 <hr>
 
 ## Estudiando actualemente

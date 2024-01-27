@@ -18,10 +18,7 @@
 ## Resumen
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DevJhojan&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
-
-<hr />
-  
-  
+<br>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=DevJhojan&layout=compact&theme=radical)](https://github.com/jdtp125753/github-readme-stats)
 
 <hr />

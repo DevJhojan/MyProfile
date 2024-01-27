@@ -94,7 +94,7 @@
 
 ## Sistemas operativos
 [![Arch](https://img.shields.io/badge/Arch%20Linux-%1793D1.svg?style=for-the-badge&logo=arch-linux&logoColor=white)](https://github.com/DevJhojan/space_files)
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](URL_DE_TU_PROYECTO_WINDOWS)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ## Con Conocimiento
 ![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)

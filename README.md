@@ -36,7 +36,7 @@
       <a>
         Configuration Archilinux
         <br>
-        <img width='100%' src='./Image/configuration/qtile/configuration.png'>
+        <img width='100%' src='./Image/configuration/qtile/spacejob.png'>
       </a>
     </td> 
     <td width='50%'>

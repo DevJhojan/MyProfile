@@ -10,7 +10,15 @@
 
 <hr />
  
-**<p> Soy programador Junior :fire:</p>** 
+**<p> Desarrollador Front-end con iniciativa y habilidades destacadas en el
+diseño y desarrollo de páginas web. Poseo una sólida organización y
+habilidades multitarea, buscando activamente una posición laboral
+que me permita aplicar mis destrezas y experiencia en beneficio tanto
+de la empresa como de sus clientes. Apasionado por la creación de
+experiencias digitales atractivas y funcionales, estoy comprometido
+con contribuir al crecimiento y éxito del equipo mediante la
+implementación de soluciones innovadoras y un enfoque proactivo en
+cada proyecto :fire:</p>** 
  
 <hr />
 <div align = "left">

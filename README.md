@@ -47,7 +47,7 @@ cada proyecto :fire:</p>**
       </a>
     </td> 
     <td width='50%'>
-   <a href='https://github.com/jdtp125753/Pokedesk' target='_blank'>
+   <a href='https://pokedesk-fandon.netlify.app/' target='_blank'>
       <img width='100%' src='./Image/PokeDesk/Title.png' alt='Pokedesk' />
     </a>
    </td>

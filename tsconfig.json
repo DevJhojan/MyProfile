@@ -41,7 +41,10 @@
       ],
       "@func/*":[
         "src/assets/func"
-      ]
+      ],
+      "@image/*":[
+        "src/assets/img"
+      ],
     }
   },
   "types": [

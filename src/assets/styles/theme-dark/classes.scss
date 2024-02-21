@@ -1,0 +1,33 @@
+@import "./colors.scss";
+@import "./animations/shadow-animation.scss";
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.mlp-25 {
+  margin-left: 25%;
+}
+.mlp-30 {
+  margin-left: 30%;
+}
+.mlp-35 {
+  margin-left: 35%;
+}
+.mlp-40{
+  margin-left: 40%;
+}
+.mlp-50 {
+  margin-left: 50%;
+}
+
+.img-gif {
+  margin-top: 1rem;
+  width: 20%;
+  border-radius: 1rem;
+  box-shadow: $shadow-image;
+}

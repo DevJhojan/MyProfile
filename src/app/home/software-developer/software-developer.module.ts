@@ -2,14 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { SoftwareDeveloperRoutingModule } from './software-developer-routing.module';
-import { SoftwareDeveloperComponent } from './software-developer.component';
-
+import { AboutMeComponent } from './about-me/about-me.component';
+import { LayoutProgrammerComponent } from 'src/app/layouts/layout-programmer/layout-programmer.component';
 
 @NgModule({
-  declarations: [SoftwareDeveloperComponent],
-  imports: [
-    CommonModule,
-    SoftwareDeveloperRoutingModule
-  ]
+  declarations: [AboutMeComponent],
+  imports: [CommonModule, SoftwareDeveloperRoutingModule, LayoutProgrammerComponent],
 })
-export class SoftwareDeveloperModule { }
+export class SoftwareDeveloperModule {}

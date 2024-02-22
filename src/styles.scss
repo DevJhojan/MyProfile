@@ -1,1 +1,50 @@
 @import "./assets/styles/theme-dark/index.scss";
+
+app-root {
+  width: 100%;
+  height: 100%;
+  app-layout-programmer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    app-about-me {
+      display: flex;
+      margin-left: 2rem;
+      border-radius: 1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: $shadow-start;
+      width: 85%;
+      height: 100%;
+    }
+    sider-bar {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  app-root {
+    width: 100%;
+    height: 100%;
+    app-layout-programmer {
+      display: flex;
+      flex-direction: column;
+      app-about-me {
+        display: flex;
+        margin-left: 2rem;
+        border-radius: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: $shadow-start;
+        width: 85%;
+        height: 100%;
+      }
+      sider-bar {
+        width: 100%;
+      }
+    }
+  }
+}

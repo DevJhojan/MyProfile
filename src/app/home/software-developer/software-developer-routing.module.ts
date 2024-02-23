@@ -10,7 +10,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/about-me',
+        redirectTo: '/about me',
         pathMatch: 'full',
       },
       {

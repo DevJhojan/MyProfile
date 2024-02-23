@@ -7,12 +7,12 @@ import { SiderBarComponent } from 'src/app/components/sider-bar/sider-bar.compon
   imports: [RouterModule, SiderBarComponent],
   selector: 'app-layout-programmer',
   template: `
-      <sider-bar [links]="menu"></sider-bar>
-      <router-outlet></router-outlet>
+    <sider-bar [links]="menu"></sider-bar>
+    <router-outlet></router-outlet>
   `,
-  styleUrls:['./layout-programmer.component.scss'],
+  styleUrls: ['./layout-programmer.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LayoutProgrammerComponent {
-  menu: string[] = ['about me', 'Skills', 'sofskills', 'Languages', 'Projects'];
+  menu: string[] = ['about me'] //, 'skills', 'sof skills', 'tools', 'projects'];
 }

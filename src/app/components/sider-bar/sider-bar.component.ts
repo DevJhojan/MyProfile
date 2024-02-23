@@ -8,11 +8,11 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, RouterModule],
   template: `
     <nav>
+      <h1>MENU</h1>
       <ul>
-        <li><h1>Menu</h1></li>
         <li *ngFor="let link of links">
           <a [routerLink]="['/' + link]" routerLinkActive="router-link-active">
-            {{ link }}
+            {{ link | uppercase }}
           </a>
         </li>
       </ul>

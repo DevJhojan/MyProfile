@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
       <h1>MENU</h1>
       <ul>
         <li *ngFor="let link of links">
-          <a [routerLink]="['/' + link]" routerLinkActive="router-link-active">
+          <a [routerLink]="['/home/software/' + link]" routerLinkActive="router-link-active">
             {{ link | uppercase }}
           </a>
         </li>

@@ -5,7 +5,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'software',
     component: LayoutProgrammerComponent,
     children: [
       {
@@ -16,7 +16,6 @@ const routes: Routes = [
       {
         path: '**',
         redirectTo: '/about_me',
-        pathMatch: 'full',
       },
       {
         path: 'about_me',
@@ -26,7 +25,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '',
+    redirectTo: '/software',
     pathMatch: 'full',
   },
 ];

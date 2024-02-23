@@ -10,12 +10,13 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/about me',
+        redirectTo: '/about_me',
         pathMatch: 'full',
       },
       {
         path: '**',
-        redirectTo: '/about me',
+        redirectTo: '/about_me',
+        pathMatch: 'full',
       },
       {
         path: 'about me',

@@ -14,5 +14,5 @@ import { SiderBarComponent } from 'src/app/components/sider-bar/sider-bar.compon
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LayoutProgrammerComponent {
-  menu: string[] = ['about me'] //, 'skills', 'sof skills', 'tools', 'projects'];
+  menu: string[] = ['about_me'] //, 'skills', 'sof skills', 'tools', 'projects'];
 }

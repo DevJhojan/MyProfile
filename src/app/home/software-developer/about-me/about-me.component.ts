@@ -9,5 +9,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 export class AboutMeComponent {
   title: string = 'Jhojan Danilo Toro Perez';
   subtitle: string = 'Software Developer junior';
-  description: string = 'Desarrollador Front-end con iniciativa y habilidades destacadas en el diseño y desarrollo de páginas web. Poseo una sólida organización y habilidades multitarea, buscando activamente una posición laboral que me permita aplicar mis destrezas y experiencia en beneficio tanto de la empresa como de sus clientes. Apasionado por la creación de experiencias digitales atractivas y funcionales, estoy comprometido con contribuir al crecimiento y éxito del equipo mediante la implementación de soluciones innovadoras y un enfoque proactivo en cada proyecto 🔥';
+  description: string = 'Front-end developer with initiative and outstanding skills in web page design and development. I have solid organization and multitasking skills, actively seeking a job position that allows me to apply my skills and experience for the benefit of both the company and its clients. Passionate about creating engaging and functional digital experiences, I am committed to contributing to the growth and success of the team by implementing innovative solutions and a proactive approach to each project. 🔥';
 }

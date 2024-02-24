@@ -6,21 +6,40 @@ app-root {
   app-layout-programmer {
     display: flex;
     flex-direction: column;
-    sider-bar {
-      width: 100vw;
-    }
     main {
       display: flex;
-      margin-left: 2rem;
       border-radius: 1rem;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
       width: 85%;
       height: 100%;
       transition: 0.5s;
-      &:hover{
+      &:hover {
         box-shadow: $shadow-start;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  app-root {
+    width: 90%;
+    height: 100%;
+    app-layout-programmer {
+      display: flex;
+      flex-direction: column;
+      main {
+        display: flex;
+        border-radius: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+        transition: 0.5s;
+        &:hover {
+          box-shadow: $shadow-start;
+        }
       }
     }
   }

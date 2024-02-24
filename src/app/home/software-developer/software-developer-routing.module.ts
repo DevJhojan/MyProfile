@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutProgrammerComponent } from 'src/app/layouts/layout-programmer/layout-programmer.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
         path: 'about_me',
         component: AboutMeComponent,
       },
+      {
+        path:'skills',
+        component: SkillsComponent,
+      }
     ],
   },
   {

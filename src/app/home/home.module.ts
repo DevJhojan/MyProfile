@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { LayoutProgrammerComponent } from '../layouts/layout-programmer/layout-programmer.component';
 import { SoftwareDeveloperModule } from './software-developer/software-developer.module';
+import { HomeComponent } from './home.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,

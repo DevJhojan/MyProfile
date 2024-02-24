@@ -11,7 +11,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/about_me',
+        redirectTo: 'about_me',
         pathMatch: 'full',
       },
       {
@@ -28,7 +28,7 @@ const routes: Routes = [
     path: '',
     redirectTo: '',
     pathMatch: 'full',
-  },
+  }
 ];
 
 @NgModule({

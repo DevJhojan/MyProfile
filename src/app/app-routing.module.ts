@@ -1,30 +1,33 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {
-    path: 'search-me',
-    title: 'Search me',
-    loadComponent: () =>
-      import('./search-me/search-me.component').then(
-        (searchMe) => searchMe.SearchMeComponent
-      ),
-  },
-  {
-    path: 'home',
-    title: 'Home',
-    loadChildren: () =>
-      import('./home/home.module').then((home) => home.HomeModule),
-  },
-  {
     path: '',
-    redirectTo: '/home',
-    pathMatch: 'full',
+    component: AppComponent,
+    children:[
+      {
+        path: '',
+        redirectTo: 'home',
+        pathMatch: 'full',
+      },
+      {
+        path: 'home',
+        title: 'Home',
+        loadChildren: () =>
+        import('./home/home.module').then((home) => home.HomeModule),
+      },
+      {
+        path: 'search-me',
+        title: 'Search me',
+        loadComponent: () =>
+          import('./search-me/search-me.component').then(
+            (searchMe) => searchMe.SearchMeComponent
+          ),
+      },
+    ]
   },
-  {
-    path: '**',
-    redirectTo: '/home',
-  }
 ];
 
 @NgModule({

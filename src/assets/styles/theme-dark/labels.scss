@@ -5,6 +5,12 @@
   color: $text;
   padding: auto;
 }
+
+main {
+  margin: auto;
+  width: 90%;
+}
+
 h1 {
   width: 95%;
   padding: 1rem;
@@ -40,14 +46,17 @@ article {
   font-size: 150%;
   border-radius: 2rem;
   box-shadow: $shadow-start;
-  width: 50%;
+  width: 90%;
+  margin: auto;
   text-align: center;
   transition: box-shadow 0.5s;
+  display: flex;
+  flex-direction: row;
   &:hover {
     box-shadow: $shadow-end;
   }
 }
 
-p{
+p {
   font-size: 110%;
 }

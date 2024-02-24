@@ -1,18 +1,18 @@
 {
-  "name": "devjhojan",
-  "version": "0.0.1",
+  "name": "myprofile",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "build:href": "ng build --base-href ./",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist && npm run copy:assets",
-    "build:ghpages": "ng build --base-href https://DevJhojan.github.io/DevJhojan/ && npx angular-cli-ghpages --dir=dist/DevJhojan ",
+    "build:ghpages": "ng build --base-href https://DevJhojan.github.io/MyProfile/ && npx angular-cli-ghpages --dir=dist/MyProfile",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "del docs",
-    "copy:dist": "copyfiles dist/devjhojan/* ./docs -f",
-    "copy:assets": "copyfiles dist/devjhojan/assets/* docs/assets "
+    "copy:dist": "copyfiles dist/myprofile/* ./docs -f",
+    "copy:assets": "copyfiles dist/myprofile/assets/* docs/assets "
   },
   "private": true,
   "dependencies": {

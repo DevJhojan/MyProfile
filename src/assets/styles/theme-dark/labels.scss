@@ -16,6 +16,13 @@ h1 {
   padding: 1rem;
   text-align: center;
   color: $titles;
+  transition: all 0.5s;
+  border-bottom: 0.5rem solid ;
+  border-top: 0.5rem solid;
+  &:hover {
+    font-size: 250%;
+    text-shadow: 0.1rem 1px 0.2rem;
+  }
 }
 h2,
 h3,
@@ -24,6 +31,13 @@ h4 {
   width: 90%;
   color: $subtitles;
   background-color: transparent;
+  transition: all 0.5s;
+  border-bottom: 0.4rem solid ;
+  border-top: 0.5rem solid;
+  &:hover {
+    font-size: 250%;
+    text-shadow: 0.1rem 1px 0.2rem;
+  }
 }
 div {
   background-color: transparent;
@@ -58,5 +72,11 @@ article {
 }
 
 p {
-  font-size: 110%;
+  font-size: 130%;
+  transition: all 0.5s;
+  &:hover {
+    font-size: 150%;
+    text-shadow: 0.5rem 0px 0.5em ;
+  }
 }
+

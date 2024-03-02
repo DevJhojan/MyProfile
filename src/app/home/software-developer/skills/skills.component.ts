@@ -1,19 +1,27 @@
 import { Component } from '@angular/core';
 
+interface Aptitud{
+  img: string;
+  title: string;
+}
+
 @Component({
   selector: 'skills',
   template: `
     <article class="txt-center ">
       <div class="column">
-        <h3 class="m-0 w-100 txt-center">Skills</h3>
+        <h2 class="m-0 txt-center"> SKILLS </h2>
         <ul>
-          <li *ngFor="let skill of skills">{{ skill }}</li>
+          <li *ngFor="let skill of skills"> {{ skill }} </li>
         </ul>
       </div>
       <div class="column">
-        <h3 class="m-0 w-100 txt-center">Aptitudes</h3>
+        <h2 class="m-0 txt-center"> TOOLING </h2>
         <ul>
-          <li *ngFor="let aptitud of aptitudes">{{ aptitud }}</li>
+          <li *ngFor="let aptitud of aptitudes">
+            <img [src]="aptitud.img" [alt]="aptitud.title">
+            {{ aptitud.title }}
+          </li>
         </ul>
       </div>
     </article>
@@ -28,5 +36,11 @@ export class SkillsComponent {
     'Adaptability',
     'Leadership',
   ];
-  aptitudes: string[] = ['Angular', '.Net', 'FastAPI', 'MongoDB', 'SQL Server'];
+  aptitudes: Aptitud[] = [
+    {img: 'assets/img/Angular_logo.png', title:'Angular'},
+    {img: 'assets/img/.Net.png', title:'.Net'},
+    {img: 'assets/img/Fast_api_logo.png', title:'FastAPI'},
+    {img: 'assets/img/MongoDB_logo.png', title:'MongoDB'},
+    {img:'assets/img/SQLServer_logo.png', title: 'SQL Server'}
+  ];
 }

@@ -84,7 +84,11 @@
   box-shadow: $shadow-image;
 }
 .img-profile {
-  width: 50%;
-  height: 40%;
   border-radius: 2rem;
+  transition: all 0.5s;
+  &:hover{
+    width: 42%;
+    height: 42%;
+    box-shadow: $shadow-image;
+  }
 }

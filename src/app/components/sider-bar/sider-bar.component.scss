@@ -6,7 +6,7 @@ nav {
   border-radius: 1rem;
   flex-direction: column;
   margin-bottom: 2rem;
-  transition: 0.5s;
+  transition:all 0.5s;
   &:hover {
     box-shadow: $shadow-start;
   }
@@ -36,10 +36,11 @@ nav {
         margin: 0;
         font-size: 120%;
         text-decoration: none;
-        transition: 0.5s;
+        transition: all 0.5s;
         &:hover {
           border-radius: 1rem;
           padding: 1rem;
+          font-size: 150%;
           box-shadow: $shadow-start;
         }
       }

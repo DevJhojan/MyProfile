@@ -2,7 +2,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "devjhojan": {
+    "myprofile": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {

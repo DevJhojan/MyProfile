@@ -6,10 +6,6 @@
   padding: auto;
 }
 
-main {
-  margin: auto;
-  width: 90%;
-}
 
 h1 {
   width: 95%;
@@ -30,13 +26,31 @@ h4 {
   padding: 1rem;
   width: 90%;
   color: $subtitles;
+  font-size: 100%;
   background-color: transparent;
   transition: all 0.5s;
   border-bottom: 0.4rem solid ;
   border-top: 0.5rem solid;
   &:hover {
-    font-size: 250%;
+    font-size: 180%;
     text-shadow: 0.1rem 1px 0.2rem;
+  }
+}
+p {
+  font-size: 130%;
+  transition: all 0.5s;
+  &:hover {
+    font-size: 150%;
+    text-shadow: 0.5rem 0px 0.5em ;
+  }
+}
+
+img{
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  &:hover {
+    border-radius: 1rem;
+    box-shadow: $shadow-end;
   }
 }
 div {
@@ -55,6 +69,10 @@ button {
     box-shadow: $shadow-end;
   }
 }
+main {
+  margin: auto;
+  width: 90%;
+}
 article {
   padding: 2rem;
   font-size: 150%;
@@ -68,15 +86,6 @@ article {
   flex-direction: row;
   &:hover {
     box-shadow: $shadow-end;
-  }
-}
-
-p {
-  font-size: 130%;
-  transition: all 0.5s;
-  &:hover {
-    font-size: 150%;
-    text-shadow: 0.5rem 0px 0.5em ;
   }
 }
 

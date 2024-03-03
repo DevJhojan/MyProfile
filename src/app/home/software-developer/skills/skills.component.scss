@@ -3,14 +3,14 @@ li {
   list-style: none;
   padding: 1rem;
   transition: all 0.5s;
-  font-size: 150%;
+  font-size: 100%;
   text-align: left;
   &:hover {
-    font-size: 180%;
+    font-size: 160%;
     text-shadow: 0.1rem 0px 0.1rem;
   }
   img{
-    width: 5%;
+    width: 3%;
     transition: all 0.5s;
     &:hover{
       width: 6%;

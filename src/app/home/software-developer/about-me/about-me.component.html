@@ -1,4 +1,4 @@
-<main class=" w-10 h-25rem pd-2 txt-center fz-100  wrap">
+<main class=" w-10 h-25rem pd-2 txt-center fz-100  wrap mt-8">
   <div class="w-40 h-10rem">
     <img
       class="w-5"
@@ -7,8 +7,8 @@
     />
   </div>
   <div class="w-6 h-11rem">
-    <h1>{{ title }}</h1>
-    <h2>{{ subtitle }}</h2>
+    <h1>{{ title |titlecase}}</h1>
+    <h2>{{ subtitle | titlecase}}</h2>
   </div>
   <p>{{ description }}</p>
 </main>

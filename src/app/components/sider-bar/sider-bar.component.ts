@@ -14,7 +14,7 @@ import { Router, RouterModule } from '@angular/router';
         class="w-full bg-black-alpha-20"
         (click)="navigate(item.url)"
       >
-        {{ item.name }}
+        {{ item.name | titlecase}}
       </button>
     </div>
   `,

@@ -38,12 +38,13 @@ h4 {
   }
 }
 p {
-  font-size: 90%;
+  font-size: 125%;
   transition: all 0.2s;
   text-align: center;
+  color: $subtitles;
   &:hover {
-    font-size: 100%;
-    text-shadow: 0.5rem 0px 0.5em ;
+    font-size: 140%;
+    text-shadow: 0.2rem 0px 0.3rem ;
     text-align: left;
   }
 }

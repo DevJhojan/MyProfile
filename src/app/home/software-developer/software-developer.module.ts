@@ -8,7 +8,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
-  declarations: [AboutMeComponent, SkillsComponent, ProjectsComponent, ],
+  declarations: [AboutMeComponent, SkillsComponent, ProjectsComponent,],
   imports: [CommonModule, SoftwareDeveloperRoutingModule, LayoutProgrammerComponent],
 })
 export class SoftwareDeveloperModule {}

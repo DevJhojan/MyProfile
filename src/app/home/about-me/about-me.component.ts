@@ -6,7 +6,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
   styles:[`
-    
+    p{
+      margin-top: 10rem;
+      text-align: center;
+      
+    }
   `]
 })
 export class AboutMeComponent {

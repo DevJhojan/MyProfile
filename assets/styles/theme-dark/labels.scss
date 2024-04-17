@@ -38,12 +38,14 @@ h4 {
   }
 }
 p {
-  font-size: 125%;
+  font-size: 150%;
   transition: all 0.2s;
   text-align: center;
   color: $subtitles;
+  font-style: oblique;
+  font-weight: 100;
   &:hover {
-    font-size: 140%;
+    font-size: 160%;
     text-shadow: 0.2rem 0px 0.3rem ;
     text-align: left;
   }

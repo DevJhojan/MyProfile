@@ -45,6 +45,9 @@
       "@image/*":[
         "src/assets/img"
       ],
+      "@material/*":[
+        "src/app/material"
+      ]
     }
   },
   "types": [

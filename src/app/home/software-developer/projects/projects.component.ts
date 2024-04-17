@@ -32,17 +32,5 @@ export class ProjectsComponent {
       url: 'https://pokedesk-lilac.vercel.app/',
       enable: true,
     },
-    {
-      img: 'assets/img/Dragons.png',
-      title: 'Dragons',
-      url: '#',
-      enable: false,
-    },
-    {
-      img: 'assets/img/WebTask.png',
-      title: 'WebTasks',
-      url: '#',
-      enable: false,
-    },
   ];
 }

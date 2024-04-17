@@ -18,7 +18,6 @@ import { AboutMeComponent } from './about-me/about-me.component';
     SoftwareDeveloperModule,
     MaterialModule,
     SiderBarComponent,
-    MaterialModule
   ]
 })
 export class HomeModule { }

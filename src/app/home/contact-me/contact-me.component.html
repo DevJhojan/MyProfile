@@ -1,0 +1,15 @@
+<main class="flex flex-row flex-nowrap mt-8">
+  <div class="flex flex-column w-6">
+    <h1>Contact Me</h1>
+    <p class="w-full">Get in touch with me via social media</p>
+    <div class="flex flex-row flex-wrap">
+      <ng-container *ngFor="let social of medialSocial" class="mt-8">
+        <a [href]="social.url" *ngIf="social.enable" class="flex flex-row">
+          <img [src]="social.img" [alt]="social.name" />
+          <mat-label class="ml-3 mt-2">{{ social.name }}</mat-label>
+        </a>
+      </ng-container>
+    </div>
+  </div>
+  <img src="assets/img/myPhoto.jpg" alt="DevJhojan" class="w-6 ml-8" />
+</main>

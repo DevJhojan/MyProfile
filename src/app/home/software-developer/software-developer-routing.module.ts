@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutProgrammerComponent } from 'src/app/layouts/layout-programmer/layout-programmer.component';
-import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutMeComponent } from '../about-me/about-me.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 
@@ -12,7 +12,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'about_me',
+        redirectTo: 'skills',
         pathMatch: 'full',
       },
       {
@@ -21,7 +21,7 @@ const routes: Routes = [
         component: AboutMeComponent,
       },
       {
-        path:'skills',
+        path: 'skills',
         title: 'Skills',
         component: SkillsComponent,
       },
@@ -29,14 +29,14 @@ const routes: Routes = [
         path: 'projects',
         title: 'Projects',
         component: ProjectsComponent,
-      }
+      },
     ],
   },
   {
     path: '',
     redirectTo: '',
     pathMatch: 'full',
-  }
+  },
 ];
 
 @NgModule({

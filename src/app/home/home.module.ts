@@ -7,9 +7,10 @@ import { HomeComponent } from './home.component';
 import { MaterialModule } from '../material/material.module';
 import { SiderBarComponent } from '../components/sider-bar/sider-bar.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
-  declarations: [HomeComponent, ContactMeComponent],
+  declarations: [HomeComponent, ContactMeComponent, AboutMeComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
@@ -17,6 +18,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     SoftwareDeveloperModule,
     MaterialModule,
     SiderBarComponent,
+    MaterialModule
   ]
 })
 export class HomeModule { }

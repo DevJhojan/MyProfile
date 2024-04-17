@@ -24,7 +24,7 @@ import { Router, RouterModule } from '@angular/router';
 export class SiderBarComponent {
   showMenu = true;
   showFiller = false;
-  constructor(private router: Router){
+  constructor( private router:Router){
   }
   items = [
     {name: 'about me', url: '/home'},

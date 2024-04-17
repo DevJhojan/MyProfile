@@ -8,7 +8,7 @@ interface Aptitud{
 @Component({
   selector: 'skills',
   template: `
-    <article class="txt-center ">
+    <article class="txt-center h-25rem w-10">
       <div class="column">
         <h2 class="m-0 txt-center"> SKILLS </h2>
         <ul>

@@ -1,0 +1,37 @@
+$shadow-start: 2px 2px 5px 3px rgba(87, 86, 86, 0.3);
+$shadow-end: 2px 2px 15px 5px rgba(255, 255, 255, 0.3);
+p{
+  font-size: 200%;
+  cursor: default;
+  transition: text-align 0.3s;
+  &:hover{
+    text-align: left;
+  }
+}
+h1{
+  font-size: 200%;
+  cursor: default;
+  transition: all 0.3s;
+  &:hover{
+    font-size: 230%;
+  }
+}
+a{
+  width: 12rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: $shadow-start;
+  padding: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 1rem;
+  img{
+    width: 2rem;
+  }
+  &:hover{
+    font-size: 1.8rem;
+    box-shadow: $shadow-end;
+    padding: 1.2rem;
+  }
+}

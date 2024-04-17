@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 const routes: Routes = [
   {
@@ -10,7 +11,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'software',
+        redirectTo: 'about_me',
         pathMatch: 'full',
       },
       {
@@ -20,6 +21,7 @@ const routes: Routes = [
             (software) => software.SoftwareDeveloperModule
           ),
       },
+      {path: 'about_me', component: AboutMeComponent},
       {
         path: 'contact-me',
         component: ContactMeComponent,

@@ -5,6 +5,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   standalone: false,
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
+  styles:[`
+    
+  `]
 })
 export class AboutMeComponent {
   title: string = 'Jhojan Danilo Toro Perez';

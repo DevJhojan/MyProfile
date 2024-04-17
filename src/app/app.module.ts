@@ -4,9 +4,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SearchMeComponent } from './search-me/search-me.component';
 import { HomeModule } from './home/home.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, SearchMeComponent, HomeModule],
+  imports: [BrowserModule, AppRoutingModule, SearchMeComponent, HomeModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

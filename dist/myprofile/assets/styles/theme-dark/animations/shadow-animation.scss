@@ -1,10 +1,24 @@
 @import "../colors.scss";
 
-@keyframes animation-shadow-dark{
-  from {
+@keyframes shadow-animation {
+  0% {
     box-shadow: $shadow-start;
   }
-  to {
-    box-shadow: $shadow-end;
+  50% {
+    box-shadow: $shadow-mid;
+  }
+  100% {
+    box-shadow: $shadow-start;
+  }
+}
+@keyframes glowing {
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0,
+  }
+  100%{
+    background-position: 0 0;
   }
 }

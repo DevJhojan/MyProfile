@@ -1,5 +1,6 @@
 @use "./colors.scss" as *;
 @use "./animations/shadow-animation.scss";
+@use "./animations/font-animation.scss";
 * {
   background-color: $background-color;
   color: $text;
@@ -13,11 +14,10 @@ h1 {
   text-align: center;
   color: $titles;
   transition: all 0.5s;
-  font-size: 100%;
   border-bottom: 0.5rem solid ;
   border-top: 0.5rem solid;
+  animation: title-animation 5s linear infinite;
   &:hover {
-    font-size: 150%;
     text-shadow: 0.1rem 1px 0.2rem;
   }
 }
@@ -27,54 +27,73 @@ h4 {
   padding: 1rem;
   width: 90%;
   color: $subtitles;
-  font-size: 100%;
+  animation: subtitle-animation 5s linear infinite;
   background-color: transparent;
   transition: all 0.5s;
   border-bottom: 0.4rem solid ;
   border-top: 0.5rem solid;
   &:hover {
-    font-size: 150%;
     text-shadow: 0.1rem 1px 0.2rem;
   }
 }
 p {
   font-size: 150%;
   transition: all 0.2s;
-  text-align: center;
-  color: $subtitles;
+  color: $text;
   font-style: oblique;
   font-weight: 100;
-  &:hover {
-    font-size: 160%;
-    text-shadow: 0.2rem 0px 0.3rem ;
-    text-align: left;
-  }
+  animation: text-position 60s linear infinite;
 }
 
 img{
   border-radius: 0.5rem;
   transition: all 0.5s;
+  box-shadow: $shadow-start;
+  position: relative;
+  padding: 0.5px;
+  border-radius: 50%;
   &:hover {
-    border-radius: 1rem;
     box-shadow: $shadow-end;
+    background: $gradiant-border;
+    background-size: 800%;
+    animation: glowing 10s linear infinite
   }
 }
 div {
   background-color: transparent;
 }
 button {
+  background: rgb(31, 30, 30);
   padding: 1rem;
   margin: 1rem;
   border: none;
   border-radius: 1rem;
   cursor: pointer;
   font-size: 100%;
+  font-weight: bold;
   box-shadow: $shadow-start;
-  transition: box-shadow 0.5s;
-  &:hover {
-    box-shadow: $shadow-end;
+  transition: all 0.5s;
+  position: relative;
+  &:hover::before{
+    content: "$shadow-end";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: $gradiant-border;
+    background-size: 800%;
+    border-radius: 1rem;
+    filter: blur(8px);
+    animation: glowing 10s linear infinite
   }
 }
+a{
+  text-decoration: none;
+  animation: text-position 60s linear infinite
+}
+
 main {
   margin: auto;
   width: 90%;
@@ -87,11 +106,11 @@ article {
   width: 90%;
   margin: auto;
   text-align: center;
-  transition: box-shadow 0.5s;
+  transition: all 0.5s ease;
   display: flex;
   flex-direction: row;
   &:hover {
-    box-shadow: $shadow-end;
+    animation: shadow-animation 5s linear infinite  ;
   }
 }
 

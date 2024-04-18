@@ -28,7 +28,7 @@ export class SiderBarComponent {
   items = [
     {name: 'about me', url: '/home'},
     {name: 'skills', url:'/home/software/skills'},
-    {name: 'projects', url:'/home/software/projects'},
+    {name: 'personal projects', url:'/home/software/projects'},
     {name: 'contac me', url:'/home/contact-me'},
   ]
   toggleMenu() {

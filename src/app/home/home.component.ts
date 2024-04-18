@@ -10,26 +10,26 @@ import { Component } from '@angular/core';
         [opened]="showMenu"
         class="w-3 bg-black-alpha-50"
       >
-        <button
+        <img
           *ngIf="showMenu == true"
           (click)="toggleMenu()"
-          class="border-round-2x1 absolute top-0"
-        >
-          <mat-icon>menu</mat-icon>
-        </button>
+          src="assets/img/menu.ico"
+          class="border-round-2x1 ml-1 mt-1 absolute top-0"
+          alt="btn-menu"
+        />
         <sider-bar></sider-bar>
       </mat-sidenav>
       <mat-sidenav-content class="bg-black-super">
         <div class="ml-4 mt-2">
           <router-outlet></router-outlet>
         </div>
-        <button
+        <img
           *ngIf="showMenu == false"
           (click)="toggleMenu()"
-          class="border-round-2x1  absolute top-0 ml-1rem"
-        >
-          <mat-icon>menu</mat-icon>
-        </button>
+          src="assets/img/menu.ico"
+          class="border-round-2x1 ml-1 mt-1 absolute top-0"
+          alt="btn-menu"
+        />
       </mat-sidenav-content>
     </mat-sidenav-container>
   `,

@@ -7,11 +7,10 @@ import { Router, RouterModule } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterModule],
   template: `
-    <div class="menu mt-6 p-5">
+    <div class="menu mt-6 h-30rem p-5">
       <button
         *ngFor="let item of items"
         mat-button
-        class="w-full bg-black-alpha-20"
         (click)="navigate(item.url)"
       >
         {{ item.name | titlecase}}

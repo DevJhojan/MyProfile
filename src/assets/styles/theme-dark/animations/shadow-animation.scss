@@ -1,10 +1,16 @@
 @import "../colors.scss";
 
-@keyframes animation-shadow-dark{
-  from {
-    box-shadow: $shadow-start;
+@keyframes shadow-animation {
+  0% {
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.3);
   }
-  to {
-    box-shadow: $shadow-end;
+  20%{
+    box-shadow: 0 0 15px rgba(165, 102, 102, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(31, 28, 28, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(75, 49, 49, 0.3);
   }
 }

@@ -18,10 +18,20 @@ p {
 }
 img{
   width: 20rem;
-  margin-top: -2rem;
 }
 
+@media (min-width: 1300px) {
 
+  .container {
+    justify-content: space-around;
+  }
+  img{
+    margin-left: 15%;
+  }
+  p{
+    margin-top: 20%;
+  }
+}
 @media (max-width: 800px) {
   .container {
     margin-top: 2rem;
@@ -35,7 +45,10 @@ img{
     width: 70%;
     height: 5rem;
   }
-
+  img{
+    margin-top: -3rem;
+    margin-left: 20%;
+  }
   p{
     width: 70%;
   }

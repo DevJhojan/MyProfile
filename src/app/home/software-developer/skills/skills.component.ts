@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 interface Aptitud{
   img: string;
@@ -8,7 +9,7 @@ interface Aptitud{
 @Component({
   selector: 'skills',
   template: `
-    <article class="txt-center ">
+    <article class="txt-center " (wheel)="onScroll($event)">
       <div class="column">
         <h2 class="m-0 txt-center"> SKILLS </h2>
         <ul>
@@ -43,4 +44,16 @@ export class SkillsComponent {
     {img: 'assets/img/MongoDB_logo.png', title:'MongoDB'},
     {img:'assets/img/SQLServer_logo.png', title: 'SQL Server'}
   ];
+
+  constructor(
+    private router: Router,
+  ) {}
+  onScroll(event: WheelEvent): void {
+    if (event.deltaY > 0) {
+      this.router.navigate(['/home/software/projects']);
+    }
+    if(event.deltaY < 0) {
+      this.router.navigate(['/home']);
+    }
+  }
 }

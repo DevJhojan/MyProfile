@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 interface Project {
   img: string;
@@ -12,7 +13,7 @@ interface Project {
   selector: 'app-projects',
   standalone: false,
   template: `
-    <div class="w-full row wrap">
+    <div class="w-full row wrap" (wheel)="onScroll($event)">
       <ng-container
         *ngFor="let project of projects"
       >
@@ -85,4 +86,16 @@ export class ProjectsComponent {
       enable: false,
     }
   ];
+
+  constructor(
+    private router: Router,
+  ) {}
+  onScroll(event: WheelEvent): void {
+    if (event.deltaY > 0) {
+      this.router.navigate(['/home/contact-me']);
+    }
+    if(event.deltaY < 0) {
+      this.router.navigate(['/home/software/skills']);
+    }
+  }
 }

@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
           class="border-round-2x1 ml-1 mt-1 absolute top-0"
           alt="btn-menu"
         />
-        <sider-bar></sider-bar>
+        <sider-bar (hiddenToogle)="toggleMenu()"></sider-bar>
       </mat-sidenav>
       <mat-sidenav-content class="bg-black-super">
         <div class="ml-4 mt-2">

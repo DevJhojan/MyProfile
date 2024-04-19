@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
@@ -21,6 +21,7 @@ import { Router, RouterModule } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SiderBarComponent {
+  @Output() hiddenToogle: EventEmitter<boolean> = new EventEmitter();
   showMenu = true;
   showFiller = false;
   constructor( private router:Router){
@@ -37,5 +38,6 @@ export class SiderBarComponent {
 
   navigate(url: string){
    this.router.navigate([url]);
+   this.hiddenToogle.emit();
   }
 }

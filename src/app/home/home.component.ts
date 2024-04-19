@@ -4,22 +4,17 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   template: `
     <mat-sidenav-container class="h-full w-full">
-      <mat-sidenav
-        #sidenav
-        mode="side"
-        [opened]="showMenu"
-        class="w-3 bg-black-alpha-50"
-      >
+      <mat-sidenav #sidenav mode="side" [opened]="showMenu" class="wi-side">
         <img
           *ngIf="showMenu == true"
           (click)="toggleMenu()"
           src="assets/img/menu.ico"
-          class="border-round-2x1 ml-1 mt-1 absolute top-0"
+          class="border-round-2x1 ml-1 mt-1 absolute top-0 cursor-pinter"
           alt="btn-menu"
         />
-        <sider-bar></sider-bar>
+        <sider-bar (hiddenToogle)="toggleMenu()"></sider-bar>
       </mat-sidenav>
-      <mat-sidenav-content class="bg-black-super">
+      <mat-sidenav-content class="container bg-black-super">
         <div class="ml-4 mt-2">
           <router-outlet></router-outlet>
         </div>
@@ -33,32 +28,10 @@ import { Component } from '@angular/core';
       </mat-sidenav-content>
     </mat-sidenav-container>
   `,
-  styles: [
-    `
-      .wi-side {
-        width: 18%;
-      }
-      .bg-black-super {
-        width: auto;
-        height: 99vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .btn-menu {
-        position: absolute;
-        top: 0.5rem;
-        left: 1rem;
-      }
-      @media (max-width: 800px) {
-        .wi-side {
-          width: 100%;
-        }
-      }
-    `,
-  ],
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  showMenu = true;
+  showMenu = false;
   toggleMenu() {
     this.showMenu = !this.showMenu;
   }

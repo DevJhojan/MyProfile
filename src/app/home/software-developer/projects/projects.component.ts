@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 interface Project {
   img: string;
   title: string;
+  tooling:string;
   url: string;
   enable: boolean;
 }
@@ -29,6 +30,14 @@ interface Project {
   `,
   styles:[
     `
+      article{
+        height: 15rem;
+        margin-top: 2rem;
+        padding: 2rem
+      }
+      div{
+        margin-top: 10%;
+      }
       h2{
         width:80%;
         font-size: 90%;
@@ -50,11 +59,13 @@ export class ProjectsComponent {
       img: 'assets/img/RickAndMorty.png',
       title: 'Rick & Morty',
       url: 'https://rick-and-morty-three-omega.vercel.app/',
+      tooling: 'Angular',
       enable: true,
     },
     {
       img: 'assets/img/pokedesk2.png',
       title: 'Pokedesk',
+      tooling:'Angular',
       url: 'https://pokedesk-lilac.vercel.app/',
       enable: true,
     },
@@ -62,12 +73,14 @@ export class ProjectsComponent {
     {
       img: 'assets/img/',
       title: 'BullTask',
+      tooling: '',
       url: '',
       enable: false,
     },
     {
       img: 'assets/img/',
       title: 'Rick & Morty',
+      tooling: '',
       url: '',
       enable: false,
     }

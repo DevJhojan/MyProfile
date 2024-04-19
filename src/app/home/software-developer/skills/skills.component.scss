@@ -1,64 +1,67 @@
-@import '../../../../assets/styles/theme-dark/colors.scss';
-li {
-  list-style: none;
-  padding: 1rem;
-  transition: all 0.5s;
-  font-size: 100%;
-  text-align: left;
-  cursor: default;
-  &:hover {
-    font-size: 150%;
-    text-shadow: 0.1rem 0px 0.1rem;
-    img{
-      width: 1.3rem;
-    }
-  }
-  img{
-    width: 1rem;
-    transition: all 0.5s;
-    &:hover{
-      width: 6%;
-    }
-  }
-}
-.ng-star-inserted{
+@import "../../../../assets/styles/theme-dark/colors.scss";
+.ng-star-inserted {
   background-color: transparent;
 }
-div {
-  width: 50%;
-  cursor: default;
+
+li {
+  list-style: none;
 }
-article{
+article {
   width: 80%;
   height: 25rem;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 8%;
+  div {
+    width: 50%;
+    cursor: default;
+    ul {
+      li {
+        text-align: center;
+        margin-left: -3rem;
+        font-size: 100%;
+        margin-top: 1rem;
+        img {
+          width: 1.5rem;
+        }
+      }
+      .list-tooling {
+        text-align: left;
+        font-size: 100%;
+        margin-left: 2rem;
+        img {
+          width: 1.5rem;
+        }
+      }
+    }
+  }
 }
-@media (max-width: 700px){
-  article{
-    width: 65%;
-    height: 70vh;
-    margin-top: 10%;
-    margin-left: 5%;
-    padding: 5rem;
+@media (max-width: 800px) {
+  article {
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    padding: 3rem;
     div {
       width: 100%;
       margin-left: -1rem;
-      h2{
+      h2 {
         width: 100%;
       }
-      ul{
+      ul {
         width: 100%;
-        li{
+        li {
           text-align: center;
-          margin-left: -3rem;
-          font-size: 150%;
-          img{
-            width: 2rem;
+          font-size: 100%;
+        }
+        .list-tooling {
+          text-align: left;
+          font-size: 100%;
+          margin-left: 2rem;
+          img {
+            width: 1.5rem;
           }
         }
       }
     }
   }
-
 }

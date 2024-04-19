@@ -19,7 +19,7 @@ interface Aptitud{
       <div class="column">
         <h2 class="m-0 txt-center"> TOOLING </h2>
         <ul>
-          <li *ngFor="let aptitud of aptitudes">
+          <li *ngFor="let aptitud of aptitudes" class="list-tooling">
             <img [src]="aptitud.img" [alt]="aptitud.title">
             {{ aptitud.title }}
           </li>

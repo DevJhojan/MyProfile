@@ -1,13 +1,14 @@
-<main class=" w-10 h-25rem pd-2 txt-center fz-100 flex flex-row flex-wrap mt-8">
-  <div class="img-profile2 border-circle w-5 h-10rem">
+<main class=" container ">
+  <div class="subcontainer border-circle">
     <img
       class="w-7 border-circle"
       src="assets/img/MyProfile.png"
       alt="myPhoto"
     />
   </div>
-  <div class="w-6 h-11rem">
+  <div class="subcontainer">
     <h1>{{ title |titlecase}}</h1>
+    <h3> [{{nikname | titlecase}}] </h3>
     <h2>{{ subtitle | titlecase}}</h2>
   </div>
   <p>{{ description }}</p>

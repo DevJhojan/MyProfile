@@ -40,25 +40,25 @@ h1 h2 {
 @media (max-width: 800px) {
   .container {
     margin-top: 2rem;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: unset;
   }
   .subcontainer {
     width: 70%;
-    height: 5rem;
+    height: 30vh;
+
   }
   img {
-    margin-top: -3rem;
+    width: 100%;
     margin-left: 20%;
   }
   p {
     width: 70%;
   }
   h1 h2 {
-    width: 100%;
+    width: 90%;
   }
   h2 h3 {
     text-align: left;

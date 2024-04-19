@@ -34,6 +34,7 @@ a {
   }
 }
 .img-me{
+  width: 20rem;
   margin-left: 10% ;
 }
 .container {
@@ -48,6 +49,8 @@ a {
     flex-direction: column;
   }
   .img-me{
-    margin-left: 20%;
+    width: 15rem;
+    margin-top: 2rem;
+    margin-left: 1%;
   }
 }

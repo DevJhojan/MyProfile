@@ -34,7 +34,7 @@ h1 h2 {
     margin-left: 15%;
   }
   p {
-    margin-top: 20%;
+    padding: 3rem;
   }
 }
 @media (max-width: 800px) {
@@ -47,7 +47,7 @@ h1 h2 {
   }
   .subcontainer {
     width: 70%;
-    height: 30vh;
+    height: 40vh;
 
   }
   img {
@@ -56,6 +56,8 @@ h1 h2 {
   }
   p {
     width: 70%;
+    padding: 2rem;
+    margin-left: -2rem;
   }
   h1 h2 {
     width: 90%;

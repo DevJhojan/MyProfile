@@ -52,11 +52,11 @@ img{
   position: relative;
   padding: 0.5px;
   border-radius: 50%;
+  background: $gradiant-border;
+  background-size: 800%;
+  animation: glowing 10s linear infinite;
   &:hover {
     box-shadow: $shadow-end;
-    background: $gradiant-border;
-    background-size: 800%;
-    animation: glowing 10s linear infinite
   }
 }
 div {
@@ -86,7 +86,7 @@ button {
     background-size: 800%;
     border-radius: 1rem;
     filter: blur(8px);
-    animation: glowing 10s linear infinite
+    animation: glowing 10s linear infinite;
   }
 }
 a{

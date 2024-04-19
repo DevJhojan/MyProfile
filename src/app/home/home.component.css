@@ -12,6 +12,9 @@
   top: 0.5rem;
   left: 1rem;
 }
+img{
+  cursor: pointer;
+}
 .container{
   overflow:  hidden scroll;
   scrollbar-width: none;

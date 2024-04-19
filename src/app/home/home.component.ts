@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
           *ngIf="showMenu == true"
           (click)="toggleMenu()"
           src="assets/img/menu.ico"
-          class="border-round-2x1 ml-1 mt-1 absolute top-0"
+          class="border-round-2x1 ml-1 mt-1 absolute top-0 cursor-pinter"
           alt="btn-menu"
         />
         <sider-bar (hiddenToogle)="toggleMenu()"></sider-bar>

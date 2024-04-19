@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
         />
         <sider-bar (hiddenToogle)="toggleMenu()"></sider-bar>
       </mat-sidenav>
-      <mat-sidenav-content class="bg-black-super">
+      <mat-sidenav-content class="container bg-black-super">
         <div class="ml-4 mt-2">
           <router-outlet></router-outlet>
         </div>

@@ -12,6 +12,10 @@
   top: 0.5rem;
   left: 1rem;
 }
+.container{
+  overflow:  hidden scroll;
+  scrollbar-width: none;
+}
 @media (max-width: 800px) {
   .wi-side {
     width: 100%;

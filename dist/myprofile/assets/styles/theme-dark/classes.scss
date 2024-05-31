@@ -1,5 +1,8 @@
 @import "./colors.scss";
 @import "./animations/shadow-animation.scss";
+.bg-transparent{
+  background: transparent;
+}
 .row {
   display: flex;
   flex-direction: row;
@@ -102,7 +105,7 @@
   box-shadow: $shadow-image;
 }
 .img-profile {
-  
+
   border-radius: 2rem;
   transition: all 0.5s;
   &:hover{

@@ -2,6 +2,7 @@ p {
   width: 90%;
   margin-top: 10rem;
   text-align: center;
+  background-color: transparent;
 }
 .container {
   width: 95%;
@@ -11,10 +12,12 @@ p {
   margin-left: 5rem;
   margin-top: 2rem;
   overflow: hidden;
+  
 }
 .subcontainer {
   width: 40%;
   height: 11rem;
+  background-color: transparent;
 }
 img {
   width: 20rem;
@@ -22,8 +25,9 @@ img {
   margin-left: 2rem;
 }
 
-h1 h2 {
+h1 h2 h3{
   width: 100%;
+  background-color: transparent;
 }
 
 @media (min-width: 1300px) {

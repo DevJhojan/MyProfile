@@ -3,7 +3,9 @@ $shadow-end: 2px 2px 15px 5px rgba(255, 255, 255, 0.3);
 p {
   font-size: 200%;
   cursor: default;
+  text-shadow: $shadow-end;
   transition: text-align 0.3s;
+  margin-top: 4rem;
 }
 h1 {
   font-size: 200%;

@@ -19,6 +19,12 @@ img{
   overflow:  hidden scroll;
   scrollbar-width: none;
 }
+mat-sidenav-content{
+  background-image: url("../../assets/img/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 @media (max-width: 800px) {
   .wi-side {
     width: 100%;

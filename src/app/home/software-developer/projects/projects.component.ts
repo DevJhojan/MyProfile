@@ -13,7 +13,7 @@ interface Project {
   selector: 'app-projects',
   standalone: false,
   template: `
-    <div class="w-full row wrap" (wheel)="onScroll($event)">
+    <div class="w-full row bg-transparent wrap" (wheel)="onScroll($event)">
       <ng-container
         *ngFor="let project of projects"
       >
@@ -34,7 +34,8 @@ interface Project {
       article{
         height: 15rem;
         margin-top: 2rem;
-        padding: 2rem
+        padding: 2rem;
+        background-color: #232222;
       }
       div{
         margin-top: 10%;

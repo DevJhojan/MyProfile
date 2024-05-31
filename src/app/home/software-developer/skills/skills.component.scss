@@ -8,14 +8,18 @@ li {
 }
 article {
   width: 80%;
-  height: 25rem;
+  height: auto;
   margin-left: 10%;
   margin-top: 8%;
+  background-color: #232222;
   div {
     width: 50%;
     cursor: default;
+    background: transparent;
     ul {
+      background: transparent;
       li {
+        background: transparent;
         text-align: center;
         margin-left: -3rem;
         font-size: 100%;

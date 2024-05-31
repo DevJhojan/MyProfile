@@ -40,10 +40,10 @@ export class SkillsComponent {
   aptitudes: Aptitud[] = [
     {img: 'assets/img/Angular_logo.png', title:'Angular'},
     {img: 'assets/img/.Net.png', title:'.Net'},
-    {img: 'assets/img/Fast_api_logo.png', title:'FastAPI'},
     {img: 'assets/img/MongoDB_logo.png', title:'MongoDB'},
     {img:'assets/img/SQLServer_logo.png', title: 'SQL Server'}
   ];
+  // {img: 'assets/img/Fast_api_logo.png', title:'FastAPI'},
 
   constructor(
     private router: Router,

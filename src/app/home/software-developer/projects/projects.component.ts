@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 interface Project {
   img: string;
   title: string;
+  view: string;
   tooling:string;
   url: string;
   enable: boolean;
@@ -21,9 +22,11 @@ interface Project {
           class="w-10rem column"
           *ngIf="project.enable===true"
         >
-          <img class="h-8rem" [src]="project.img" [alt]="project.title" />
+        <img class="h-8rem" [src]="project.img" [alt]="project.title" />
+        <p>{{project.title}}</p>
+        <label>tooling: {{project.tooling}}</label>
           <h2 >
-            <a [href]="project.url" class="text-orange-500" >{{ project.title }}</a>
+            <a [href]="project.url" class="text-orange-500" >{{ project.view }}</a>
           </h2>
         </article>
       </ng-container>
@@ -32,7 +35,7 @@ interface Project {
   styles:[
     `
       article{
-        height: 15rem;
+        height: auto;
         margin-top: 2rem;
         padding: 2rem;
         background-color: #232222;
@@ -60,6 +63,7 @@ export class ProjectsComponent {
     {
       img: 'assets/img/RickAndMorty.png',
       title: 'Rick & Morty',
+      view: 'visit page',
       url: 'https://rick-and-morty-three-omega.vercel.app/',
       tooling: 'Angular',
       enable: true,
@@ -67,6 +71,7 @@ export class ProjectsComponent {
     {
       img: 'assets/img/pokedesk2.png',
       title: 'Pokedesk',
+      view: 'visit page',
       tooling:'Angular',
       url: 'https://pokedesk-lilac.vercel.app/',
       enable: true,
@@ -75,16 +80,18 @@ export class ProjectsComponent {
     {
       img: 'assets/img/',
       title: 'BullTask',
+      view: 'visit page',
       tooling: '',
       url: '',
       enable: false,
     },
     {
-      img: 'assets/img/',
-      title: 'Rick & Morty',
-      tooling: '',
-      url: '',
-      enable: false,
+      img: 'assets/img/snake.ico',
+      title: 'Snake Game',
+      view: 'Download',
+      tooling: 'C#',
+      url: 'https://github.com/DevJhojan/Game-Snake/raw/main/Install.zip',
+      enable: true,
     }
   ];
 

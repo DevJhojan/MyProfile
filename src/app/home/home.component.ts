@@ -31,7 +31,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  showMenu = false;
+  showMenu = true;
   toggleMenu() {
     this.showMenu = !this.showMenu;
   }

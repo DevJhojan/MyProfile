@@ -9,7 +9,8 @@ interface Aptitud{
 @Component({
   selector: 'skills',
   template: `
-    <article class="txt-center " (wheel)="onScroll($event)">
+<!-- (wheel)="onScroll($event)" -->
+    <article class="txt-center " >
       <div class="column">
         <h2 class="m-0 txt-center"> SKILLS </h2>
         <ul>

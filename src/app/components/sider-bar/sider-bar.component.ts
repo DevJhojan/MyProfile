@@ -23,7 +23,7 @@ import { Router, RouterModule } from '@angular/router';
 export class SiderBarComponent {
   @Output() hiddenToogle: EventEmitter<boolean> = new EventEmitter();
   showMenu = true;
-  showFiller = false;
+  showFiller = true;
   constructor( private router:Router){
   }
   items = [

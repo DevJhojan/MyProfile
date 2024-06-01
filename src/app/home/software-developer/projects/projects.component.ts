@@ -6,6 +6,7 @@ interface Project {
   title: string;
   view: string;
   tooling:string;
+  repo: string;
   url: string;
   enable: boolean;
 }
@@ -14,20 +15,28 @@ interface Project {
   selector: 'app-projects',
   standalone: false,
   template: `
-    <div class="w-full row bg-transparent wrap" (wheel)="onScroll($event)">
+  <!-- (wheel)="onScroll($event)" -->
+    <div class="w-full row bg-transparent wrap" >
       <ng-container
         *ngFor="let project of projects"
       >
         <article
-          class="w-10rem column"
+          class="w-20rem row"
           *ngIf="project.enable===true"
         >
-        <img class="h-8rem" [src]="project.img" [alt]="project.title" />
-        <p>{{project.title}}</p>
-        <label>tooling: {{project.tooling}}</label>
-          <h2 >
+        <div class="column pd-2">
+          <img class="h-8rem" [src]="project.img" [alt]="project.title" />
+          <a [href]="project.repo">
+            <img src="assets/img/github.png" alt="">
+          </a>
+        </div>
+        <div class="column pd-2">
+          <p>{{project.title}}</p>
+          <label>tooling: {{project.tooling}}</label>
+          <h2>
             <a [href]="project.url" class="text-orange-500" >{{ project.view }}</a>
           </h2>
+        </div>
         </article>
       </ng-container>
     </div>
@@ -65,6 +74,7 @@ export class ProjectsComponent {
       title: 'Rick & Morty',
       view: 'visit page',
       url: 'https://rick-and-morty-three-omega.vercel.app/',
+      repo: 'https://github.com/DevJhojan/RickAndMorty',
       tooling: 'Angular',
       enable: true,
     },
@@ -73,6 +83,7 @@ export class ProjectsComponent {
       title: 'Pokedesk',
       view: 'visit page',
       tooling:'Angular',
+      repo: 'https://github.com/DevJhojan/Pokedesk',
       url: 'https://pokedesk-lilac.vercel.app/',
       enable: true,
     },
@@ -82,6 +93,7 @@ export class ProjectsComponent {
       title: 'BullTask',
       view: 'visit page',
       tooling: '',
+      repo: '',
       url: '',
       enable: false,
     },
@@ -90,6 +102,7 @@ export class ProjectsComponent {
       title: 'Snake Game',
       view: 'Download',
       tooling: 'C#',
+      repo: 'https://github.com/DevJhojan/Game-Snake',
       url: 'https://github.com/DevJhojan/Game-Snake/raw/main/Install.zip',
       enable: true,
     }

@@ -15,16 +15,22 @@
 img{
   cursor: pointer;
 }
-.container{
+.img-repo{
+  width: 2rem;
+}
+.content{
   overflow:  hidden scroll;
   scrollbar-width: none;
-}
-mat-sidenav-content{
+  width: 100vw;
+  height: 100vh;
   background-image: url("../../assets/img/wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
+footer_loop{
+  position: fixed;
+  bottom: 0;
+}
 @media (max-width: 800px) {
   .wi-side {
     width: 100%;

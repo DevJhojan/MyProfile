@@ -17,6 +17,9 @@ img{
 }
 .img-repo{
   width: 2rem;
+  position: absolute;
+  top: 2%;
+  left: 2%;
 }
 .content{
   overflow:  hidden scroll;
@@ -29,10 +32,19 @@ img{
 }
 footer_loop{
   position: fixed;
+  width: 100%;
   bottom: 0;
 }
 @media (max-width: 800px) {
   .wi-side {
     width: 100%;
+  }
+  footer_loop{
+    position: fixed;
+    width: 15%;
+    top: 1rem;
+    right: 3rem;
+    text-align: center;
+    align-items: center;
   }
 }

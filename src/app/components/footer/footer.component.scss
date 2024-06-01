@@ -1,13 +1,21 @@
 $shadow-start: 2px 2px 5px 3px rgba(87, 86, 86, 0.3);
 $shadow-end: 2px 2px 5px 3px rgba(172, 94, 94, 0.3);
-$gradiant-border: linear-gradient(45deg,  #5c1111f9, #715e5e,  #584040f9, #3b1818);
+$gradiant-border: linear-gradient(
+  45deg,
+  #5c1111f9,
+  #715e5e,
+  #584040f9,
+  #3b1818
+);
 $subtitles: #f8ceb2;
-.menu{
+.menu {
+  width: 100%;
   position: fixed;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   bottom: 1rem;
   button {
     width: 100%;
@@ -21,7 +29,7 @@ $subtitles: #f8ceb2;
     transition: all 0.5s;
     position: relative;
     color: $subtitles;
-    &:hover::before{
+    &:hover::before {
       content: "$shadow-end";
       position: absolute;
       top: 0;
@@ -33,20 +41,20 @@ $subtitles: #f8ceb2;
       background-size: 800%;
       border-radius: 1rem;
       filter: blur(8px);
-      animation: glowing 10s linear infinite
+      animation: glowing 10s linear infinite;
     }
   }
 }
 
-
 @keyframes glowing {
-  0%{
+  0% {
     background-position: 0 0;
   }
-  50%{
-    background-position: 400% 0,
+  50% {
+    background-position: 400% 0;
   }
-  100%{
+  100% {
     background-position: 0 0;
   }
 }
+

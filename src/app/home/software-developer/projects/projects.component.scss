@@ -1,0 +1,48 @@
+article {
+  width: 20rem;
+  height: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #232222;
+}
+div {
+  margin-top: 10%;
+}
+h2 {
+  width: 80%;
+  font-size: 90%;
+  margin-top: 1rem;
+  color: #d12000;
+}
+h2:hover {
+  font-size: 100%;
+}
+img {
+  width: 8rem;
+  height: 8rem;
+  box-shadow: none;
+}
+.img-repo{
+  width: 4rem;
+  height: 4rem;
+}
+@media (max-width: 800px)
+{
+  article {
+    width: 15rem;
+    height: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #232222;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  img{
+    width: 15rem;
+    height: 15rem;
+  }
+
+}
+

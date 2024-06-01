@@ -1,6 +1,6 @@
 p {
   width: 90%;
-  margin-top: 10rem;
+  margin-top: 3rem;
   text-align: center;
   background-color: transparent;
 }
@@ -51,7 +51,7 @@ h1 h2 h3{
   }
   .subcontainer {
     width: 70%;
-    height: 40vh;
+    height: auto;
 
   }
   img {
@@ -60,8 +60,7 @@ h1 h2 h3{
   }
   p {
     width: 70%;
-    padding: 2rem;
-    margin-left: -2rem;
+    padding: 1rem;
   }
   h1 h2 {
     width: 90%;

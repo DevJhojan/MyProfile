@@ -21,13 +21,13 @@ interface Project {
         *ngFor="let project of projects"
       >
         <article
-          class="w-20rem row"
+          class="row"
           *ngIf="project.enable===true"
         >
         <div class="column pd-2">
-          <img class="h-8rem" [src]="project.img" [alt]="project.title" />
-          <a [href]="project.repo">
-            <img src="assets/img/github.png" alt="">
+          <img  [src]="project.img" [alt]="project.title" />
+          <a class="a-repo" [href]="project.repo">
+            <img class="img-repo" src="assets/img/github.png" alt="My repo">
           </a>
         </div>
         <div class="column pd-2">
@@ -41,31 +41,7 @@ interface Project {
       </ng-container>
     </div>
   `,
-  styles:[
-    `
-      article{
-        height: auto;
-        margin-top: 2rem;
-        padding: 2rem;
-        background-color: #232222;
-      }
-      div{
-        margin-top: 10%;
-      }
-      h2{
-        width:80%;
-        font-size: 90%;
-        margin-top: 1rem;
-        color: #D12000;
-      }
-      h2:hover{
-        font-size: 100%;
-      }
-      img{
-        box-shadow: none;
-      }
-    `
-  ]
+  styleUrls:['./projects.component.scss']
 })
 export class ProjectsComponent {
   projects: Project[] = [

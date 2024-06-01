@@ -8,6 +8,7 @@ import { MaterialModule } from '../material/material.module';
 import { SiderBarComponent } from '../components/sider-bar/sider-bar.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { FooterComponent } from '../components/footer/footer.component';
 
 @NgModule({
   declarations: [HomeComponent, ContactMeComponent, AboutMeComponent],
@@ -18,6 +19,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
     SoftwareDeveloperModule,
     MaterialModule,
     SiderBarComponent,
+    FooterComponent,
   ]
 })
 export class HomeModule { }

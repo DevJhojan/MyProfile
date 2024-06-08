@@ -13,16 +13,14 @@ export class AboutMeComponent {
   nikname: string = 'Dev Jhojan';
   subtitle: string = 'Software Developer junior';
   description: string =
-    'Front-end developer with initiative and outstanding skills in web page design and development. I have solid organization and multitasking skills, actively seeking a job position that allows me to apply my skills and experience for the benefit of both the company and its clients. Passionate about creating engaging and functional digital experiences, I am committed to contributing to the growth and success of the team by implementing innovative solutions and a proactive approach to each project. 🔥';
-  constructor(
-    private router: Router,
-  ) {}
+    'I am a software developer with over 8 months of experience in the field of programming and application development. Throughout my career, I have demonstrated a strong ability to work in a team and collaborate effectively with colleagues to achieve project goals. I am characterized by my enthusiasm to learn and adopt new concepts and technologies, which allows me to stay up to date and quickly adapt to the changing demands of the technological environment. 🔥';
+  constructor(private router: Router) {}
 
   onScroll(event: WheelEvent): void {
     if (event.deltaY > 0) {
       this.router.navigate(['/home/software/skills']);
     }
-    if(event.deltaY < 0) {
+    if (event.deltaY < 0) {
       this.router.navigate(['/home/contact-me']);
     }
   }

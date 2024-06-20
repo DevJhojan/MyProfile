@@ -15,16 +15,16 @@ const routes: Routes = [
       {
         path: 'home',
         title: 'Home',
-        loadChildren: () =>
-        import('./home/home.module').then((home) => home.HomeModule),
+        //loadChildren: () =>
+        //import('./home/home.module').then((home) => home.HomeModule),
       },
       {
         path: 'search-me',
         title: 'Search me',
-        loadComponent: () =>
-          import('./search-me/search-me.component').then(
-            (searchMe) => searchMe.SearchMeComponent
-          ),
+        //loadComponent: () =>
+          //import('./search-me/search-me.component').then(
+            //(searchMe) => searchMe.SearchMeComponent
+          //),
       },
     ]
   },

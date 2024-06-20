@@ -1,9 +1,10 @@
 p {
   width: 90%;
-  margin-top: 7rem;
+  margin-top: 15rem;
   text-align: center;
   background-color: transparent;
 }
+
 .container {
   width: 95%;
   display: flex;
@@ -14,31 +15,46 @@ p {
   overflow: hidden;
 
 }
+
 .subcontainer {
   width: 40%;
   height: 11rem;
   background-color: transparent;
 }
+
 img {
   width: 20rem;
-  margin-top: 3%;
+  height: 25rem;
+  margin-top: 1%;
   margin-left: 2rem;
 }
 
-h1 h2 h3{
+h1 h2 h3 {
   width: 100%;
   background-color: transparent;
+  margin-left: 3rem;
 }
 
 @media (min-width: 1300px) {
   .container {
     justify-content: space-around;
   }
+
   img {
     margin-left: 15%;
   }
+
+
   p {
     padding: 3rem;
+  }
+}
+@media (max-height: 650px ) {
+  img{
+    height: 23rem;
+  }
+  p {
+    margin-top: 12rem;
   }
 }
 @media (max-width: 800px) {
@@ -49,23 +65,29 @@ h1 h2 h3{
     flex-wrap: wrap;
     justify-content: unset;
   }
+
   .subcontainer {
-    width: 70%;
+    width: 80%;
     height: auto;
 
   }
+
   img {
     width: 100%;
-    margin-left: 20%;
+    height: 100%;
+    margin-left: 1%;
   }
+
   p {
     width: 70%;
     padding: 1rem;
     margin-top: 1rem;
   }
+
   h1 h2 {
     width: 90%;
   }
+
   h2 h3 {
     text-align: left;
   }

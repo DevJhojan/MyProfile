@@ -15,16 +15,7 @@ const routes: Routes = [
       {
         path: 'home',
         title: 'Home',
-        //loadChildren: () =>
-        //import('./home/home.module').then((home) => home.HomeModule),
-      },
-      {
-        path: 'search-me',
-        title: 'Search me',
-        //loadComponent: () =>
-          //import('./search-me/search-me.component').then(
-            //(searchMe) => searchMe.SearchMeComponent
-          //),
+        loadChildren: () => import('./core/core.module').then((home) => home.CoreModule),
       },
     ]
   },

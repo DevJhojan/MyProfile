@@ -1,3 +1,20 @@
-<button>
-  <img src="assets/img/shared-icon.png">
-</button>
+<div class="social-icons" id="s-icons">
+  <ul class="navbar-nav">
+    <li *ngFor="let social of socialIcons">
+      <a [href]="social.url" class="btn-social">
+        <i [class]="social.iconClass"></i>
+      </a>
+    </li>
+  </ul>
+  <button
+    (click)="toggleNavbar()"
+    
+    class="btn-social"
+    id="btn-share"
+    data-toggle="tooltip"
+    data-placement="left"
+    title="Contact Me"
+  >
+    <img src="assets/img/shared-icon.png" alt="btn Social">
+  </button>
+</div>

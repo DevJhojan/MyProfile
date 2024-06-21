@@ -1,1 +1,6 @@
-<p>skills works!</p>
+<div *ngIf="isMobileMetod()">
+  <shared-btn-slash />
+</div>
+<div *ngIf="!isMobileMetod()">
+  <shared-container />
+</div>

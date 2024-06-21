@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
         <shared-picture />
         <shared-contact-me />
         <div>
-          <shared-title />
+          <shared-title Title="Jhojan Danilo Toro Perez" />
           <common-skills />
         </div>
       </div>

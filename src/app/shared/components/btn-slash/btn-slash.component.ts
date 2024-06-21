@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-btn-slash',
+  selector: 'shared-btn-slash',
   templateUrl: './btn-slash.component.html',
   styleUrls: ['./btn-slash.component.css']
 })

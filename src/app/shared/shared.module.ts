@@ -6,6 +6,7 @@ import { ProjectComponent } from './components/project/project.component';
 import { PictureComponent } from './components/picture/picture.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { BtnSlashComponent } from './components/btn-slash/btn-slash.component';
+import { ContainerComponent } from './components/container/container.component';
 
 @NgModule({
   imports: [CommonModule],
@@ -15,7 +16,8 @@ import { BtnSlashComponent } from './components/btn-slash/btn-slash.component';
     ProjectComponent,
     PictureComponent,
     ContactMeComponent,
-    BtnSlashComponent
+    BtnSlashComponent,
+    ContainerComponent
   ],
   declarations: [
     WindowsMenuComponent,
@@ -23,7 +25,8 @@ import { BtnSlashComponent } from './components/btn-slash/btn-slash.component';
     ProjectComponent,
     PictureComponent,
     ContactMeComponent,
-    BtnSlashComponent
+    BtnSlashComponent,
+    ContainerComponent
   ],
 })
 export class SharedModule {}

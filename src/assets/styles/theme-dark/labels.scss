@@ -7,21 +7,6 @@
   padding: auto;
 }
 
-
-h1 {
-  width: 90%;
-  padding: 1rem;
-  text-align: center;
-  color: $titles;
-  transition: all 0.5s;
-  border-top: 0.2rem solid;
-  border-bottom: 0.2rem solid;
-  background: transparent;
-  animation: title-animation 5s linear infinite;
-  &:hover {
-    text-shadow: 0.1rem 1px 0.2rem;
-  }
-}
 h2,
 h3,
 h4 {

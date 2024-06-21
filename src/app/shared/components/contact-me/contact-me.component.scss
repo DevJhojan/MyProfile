@@ -1,0 +1,36 @@
+@use "../../../../assets/styles/theme-dark/colors.scss" as *;
+@use "../../../../assets/styles/theme-dark/animations/shadow-animation.scss";
+@use "../../../../assets/styles/theme-dark/animations/font-animation.scss";
+button {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  background: rgb(31, 30, 30);
+  padding: 0.2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: $shadow-start;
+  transition: all 0.5s;
+  top: 2rem;
+  overflow: hidden;
+  &:hover::before{
+    content: "$shadow-end";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: $gradiant-border;
+    background-size: 800%;
+    border-radius: 1rem;
+    filter: blur(8px);
+    animation: glowing 10s linear infinite;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}

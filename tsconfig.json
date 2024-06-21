@@ -23,12 +23,11 @@
     "lib": ["ES2022", "dom"],
     "paths": {
       "@models/*": ["src/app/Models"],
-      "@layouts/*": ["src/app/layouts"],
-      "@services/*": ["src/app/Service"],
-      "@share/*": ["src/app/shared"],
+      "@commons/*": ["src/app/common"],
+      "@services/*": ["src/app/services"],
+      "@shared/*": ["src/app/shared"],
+      "@core/*": ["src/app/core"],
       "@assets/*": ["src/assets"],
-      "@func/*": ["src/assets/func"],
-      "@image/*": ["src/assets/img"],
       "@material/*": ["src/app/material"]
     }
   },

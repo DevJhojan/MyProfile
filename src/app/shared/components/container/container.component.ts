@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ICardNormal, ICardProjects } from '@models/*';
+
 
 @Component({
   selector: 'shared-container',
   templateUrl: './container.component.html',
-  styleUrls: ['./container.component.css']
+  styleUrls: ['./container.component.css'],
 })
 export class ContainerComponent implements OnInit {
+  @Input() projects: boolean = false;
+  @Input() cardProjects?: ICardProjects[] = []; // this can return null
+  @Input() title: string = "Title";
+  @Input() cardNormals?: ICardNormal[] = [];
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

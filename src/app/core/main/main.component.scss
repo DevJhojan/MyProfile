@@ -5,7 +5,7 @@ main{
   justify-content: space-around;
   width: 100vw;
   height: auto;
-  margin-left: -1.3rem;
+  margin-left: -1.5rem;
   div{
       display: flex;
       flex-direction: row;
@@ -14,8 +14,8 @@ main{
       width: 95%;
       height: auto;
       shared-picture{
-        width: 35%;
-        height: 30rem;
+        width: 15rem;
+        height: 20rem;
       }
       shared-contact-me{
         width: 10%;
@@ -69,7 +69,7 @@ main{
     }
   }
 }
-@media (max-width: 500px){
+@media (max-width: 540px){
 
   main{
     margin-left: -0.3rem;
@@ -81,7 +81,26 @@ main{
       width: 95%;
       height: auto;
       shared-picture{
-        width: 60%;
+        width: 15rem;
+        height: 20rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 340px){
+
+  main{
+    margin-left: 3px;
+    div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      shared-picture{
+        width: 10rem;
         height: 15rem;
       }
     }

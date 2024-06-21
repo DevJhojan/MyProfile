@@ -1,5 +1,6 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig.*/
 
+
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -22,7 +23,7 @@
     "useDefineForClassFields": false,
     "lib": ["ES2022", "dom"],
     "paths": {
-      "@models/*": ["src/app/Models"],
+      "@models/*": ["src/app/models"],
       "@commons/*": ["src/app/common"],
       "@services/*": ["src/app/services"],
       "@shared/*": ["src/app/shared"],

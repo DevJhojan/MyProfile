@@ -1,0 +1,29 @@
+@use "../../assets/styles/colors.scss" as *;
+@use "../../assets/styles/animations/shadow-animation.scss";
+@use "../../assets/styles/animations/font-animation.scss";
+.content {
+  overflow: hidden scroll;
+  scrollbar-width: none;
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--bgImg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: var(--text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--bgColor);
+    }
+
+    &:active {
+      background-color: var(--bgColor);
+    }
+  }
+}

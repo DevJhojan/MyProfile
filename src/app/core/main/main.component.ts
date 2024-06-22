@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
           <common-skills />
         </div>
       </div>
-      <div class="mt-4">
+      <div >
         <common-profile />
         <common-more-about-me />
       </div>

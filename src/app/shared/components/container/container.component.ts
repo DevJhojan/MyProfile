@@ -5,7 +5,7 @@ import { ICardNormal, ICardProjects } from '@models/*';
 @Component({
   selector: 'shared-container',
   templateUrl: './container.component.html',
-  styleUrls: ['./container.component.css'],
+  styleUrls: ['./container.component.scss'],
 })
 export class ContainerComponent implements OnInit {
   @Input() projects: boolean = false;

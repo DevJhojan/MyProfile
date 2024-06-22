@@ -1,4 +1,4 @@
-@import "./assets/styles/theme-dark/index.scss";
+@import "./assets/styles/index.scss";
 *{
   background-color: transparent;
 }
@@ -9,7 +9,7 @@ app-root {
     display: flex;
     flex-direction: column;
     background: transparent;
-   
+
   }
 }
 @media (max-width: 768px) {
@@ -29,7 +29,7 @@ app-root {
         height: 100%;
         transition: 0.5s;
         &:hover {
-          box-shadow: $shadow-start;
+          box-shadow: var(--shadowStart);
         }
       }
     }

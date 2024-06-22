@@ -2,13 +2,13 @@
 
 @keyframes shadow-animation {
   0% {
-    box-shadow: $shadow-start;
+    box-shadow: var(--shadowStart);
   }
   50% {
-    box-shadow: $shadow-mid;
+    box-shadow: var(--shadowMid);
   }
   100% {
-    box-shadow: $shadow-start;
+    box-shadow: var(--shadowStart);
   }
 }
 @keyframes glowing {

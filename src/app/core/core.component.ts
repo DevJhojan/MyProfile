@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="content">
       <button (click)="toggleTheme()">
-        Theme
+        <img *ngIf="isLightTheme" src="assets/img/moon.png" alt="change theme dark">
+        <img *ngIf="!isLightTheme" src="assets/img/sun.png" alt = "chage theme light">
       </button>
       <router-outlet></router-outlet>
     </div>

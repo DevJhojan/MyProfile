@@ -26,6 +26,7 @@
     "@angular/platform-browser": "^16.2.12",
     "@angular/platform-browser-dynamic": "^16.2.12",
     "@angular/router": "^16.2.12",
+    "@fortawesome/angular-fontawesome": "^0.13.0",
     "@swimlane/ngx-charts": "^20.4.1",
     "@types/d3": "^7.4.1",
     "@types/d3-scale": "^4.0.5",

@@ -3,10 +3,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-core',
   template: `
     <div class="content">
-      <button (click)="toggleTheme()">
-        <img *ngIf="isLightTheme" src="assets/img/moon.png" alt="change theme dark">
-        <img *ngIf="!isLightTheme" src="assets/img/sun.png" alt = "chage theme light">
-      </button>
+      <shared-btn-switch-theme (changeTheme)="toggleTheme($event)"/>
       <router-outlet></router-outlet>
     </div>
   `,
@@ -14,11 +11,23 @@ import { Component, OnInit } from '@angular/core';
 
 })
 export class CoreComponent {
+  private _theme = "dark";
+  private _key = "theme";
   title = 'My Profile';
   isLightTheme = false;
-
-  toggleTheme() {
-    this.isLightTheme =!this.isLightTheme;
+  constructor(){
+    const storageTheme = localStorage.getItem(this._key);
+    if(storageTheme) {
+      this._theme = storageTheme;
+      this.isLightTheme = storageTheme === 'light';
+      document.body.classList.toggle('lightTheme', this.isLightTheme);
+    }
+  }
+  toggleTheme($event:boolean) {
+    this.isLightTheme =$event;
+    if(this.isLightTheme==true)  this._theme = "light";
+    else this._theme = "dark"
+    localStorage.setItem(this._key, this._theme);
     document.body.classList.toggle('lightTheme', this.isLightTheme);
   }
 }

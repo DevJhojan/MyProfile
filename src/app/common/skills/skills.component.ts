@@ -15,7 +15,7 @@ export class SkillsComponent {
 
 
   isMobileMetod():boolean {
-    const mq = window.matchMedia('(max-width: 800px)');
+    const mq = window.matchMedia('(max-width: 600px)');
     this.isMobile = mq.matches;
     return this.isMobile;
   }

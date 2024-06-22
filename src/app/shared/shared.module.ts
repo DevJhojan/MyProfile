@@ -8,6 +8,7 @@ import { BtnSlashComponent } from './components/btn-slash/btn-slash.component';
 import { ContainerComponent } from './components/container/container.component';
 import { CardsNormalsComponent } from './components/cards-normals/cards-normals.component';
 import { CardsProjectsComponent } from './components/cards-projects/cards-projects.component';
+import { BtnSwitchThemeComponent } from './components/btn-switch-theme/btn-switch-theme.component';
 
 @NgModule({
   imports: [CommonModule],
@@ -17,6 +18,7 @@ import { CardsProjectsComponent } from './components/cards-projects/cards-projec
     PictureComponent,
     ContactMeComponent,
     BtnSlashComponent,
+    BtnSwitchThemeComponent,
     ContainerComponent,
     CardsNormalsComponent,
     CardsProjectsComponent,
@@ -27,6 +29,7 @@ import { CardsProjectsComponent } from './components/cards-projects/cards-projec
     PictureComponent,
     ContactMeComponent,
     BtnSlashComponent,
+    BtnSwitchThemeComponent,
     ContainerComponent,
     CardsNormalsComponent,
     CardsProjectsComponent,

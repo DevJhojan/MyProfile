@@ -1,12 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'shared-picture',
-  templateUrl: './picture.component.html',
+  template: ` <img [src]="img" alt="MyPhoto" /> `,
   styleUrls: ['./picture.component.scss'],
 })
-export class PictureComponent implements OnInit {
+export class PictureComponent {
+  @Input() img: string = '';
   constructor() {}
-
-  ngOnInit() {}
 }

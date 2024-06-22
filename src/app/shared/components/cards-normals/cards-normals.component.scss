@@ -1,10 +1,14 @@
 article {
-  width: 15rem;
+  width: 10rem;
   height: 15rem;
   div{
     width: 100%;
     h3{
       font-size: 150%;
+      cursor: default;
+    }
+    ul li{
+      cursor: default;
     }
   }
 }

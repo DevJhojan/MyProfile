@@ -5,7 +5,9 @@ import { Component } from '@angular/core';
   template: `
     <main>
       <div>
-        <shared-picture />
+        <div class="abarcado">
+          <shared-picture [img]="MyPhoto" />
+        </div>
         <shared-contact-me />
         <div>
           <shared-title Title="Jhojan Danilo Toro Perez" />
@@ -20,4 +22,6 @@ import { Component } from '@angular/core';
   `,
   styleUrls: ['./main.component.scss'],
 })
-export class MainComponent {}
+export class MainComponent {
+  MyPhoto: string = 'assets/img/MyProfile.png'; 
+}

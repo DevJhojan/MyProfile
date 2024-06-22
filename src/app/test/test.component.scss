@@ -1,0 +1,57 @@
+@use "../../assets/styles/colors.scss";
+@use "../../assets/styles/animations/shadow-animation.scss";
+@use "../../assets/styles/animations/font-animation.scss";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css");
+div{
+  width: 95%;
+  .heading{
+    width: 100;
+    padding-top: 1rem;
+    color: var(--text);
+    border: 1px solid var(--text);
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    &:hover{
+      box-shadow: var(--shadowStart);
+    }
+  }
+
+  .content{
+    width: 95%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    box-shadow: var(--shadowStart);
+    border-top: none;
+    transition: all 0.3s;
+    color: var(--text);
+    overflow: hidden scroll;
+    &:hover{
+      border-top: none;
+      box-shadow: var(--shadowEnd);
+    }
+  }
+
+}
+button{
+    width: 100;
+    padding-top: 1rem;
+    color: var(--text);
+    border: 1px solid var(--text);
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    &:hover{
+      box-shadow: var(--shadowStart);
+    }
+}

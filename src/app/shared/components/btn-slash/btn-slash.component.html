@@ -1,3 +1,13 @@
-<p>
-  btn-slash works!
-</p>
+<div>
+  <div class="heading" (click)="slashConten()">
+    <h1>{{title}}</h1>
+  </div>
+  <div [@animate]="animationState" class="container">
+    <div class="content" *ngIf="!projects && state">
+      <shared-cards-normals *ngFor="let card of cardsNomal" [cardNormal]="card"/>
+    </div>
+    <div class="content" *ngIf="projects && state">
+      <shared-cards-projects *ngFor="let cardProject of CardsProjects" [cardProjects]="cardProject" />
+    </div>
+  </div>
+</div>

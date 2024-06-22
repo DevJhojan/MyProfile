@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'Profile',
+    pathMatch: 'full'
+  },
+  {
+    path: 'Profile',
     component: AppComponent,
     children:[
       {
@@ -19,6 +25,11 @@ const routes: Routes = [
       },
     ]
   },
+  {
+    path: 'test',
+    title: 'Test',
+    component: TestComponent,
+  }
 ];
 
 @NgModule({

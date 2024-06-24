@@ -22,7 +22,7 @@ export class CardProjects implements ICardProjects{
 }
 export interface ICardNormal{
   h2: string,
-  items: string[],
+  items?: string[],
   itemsObject?:  ItemsObjetc[],
 }
 export interface ItemsObjetc{

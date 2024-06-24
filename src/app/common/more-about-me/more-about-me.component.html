@@ -1,6 +1,6 @@
 <div class="abarcado">
   <div class="content-btn" *ngIf="isMobileMetod()">
-
+    <shared-btn-slash *ngFor="let content of contents" [title]="content.titleButton" [content]="true"  [cardsContent]="content.listContent"/>
   </div>
   <div class="content-window" *ngIf="!isMobileMetod()">
     <shared-windows-menu [Contents]="contents" />

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ICardNormal } from '@models/*';
+import { ICardNormal, IContent, ISubContend } from '@models/*';
 import { CardProjects, ICardProjects } from '../../../models/shared/i-cards';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 
@@ -25,8 +25,11 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
 export class BtnSlashComponent {
   @Input() projects : boolean = false;
   @Input() title: string = "Title";
+  @Input() normal : boolean = false;
   @Input() cardsNomal?: ICardNormal[] = [];
   @Input() CardsProjects?: ICardProjects[] = [];
+  @Input() content : boolean = false;
+  @Input() cardsContent?: ISubContend [] = [];
   animationState = 'inactive';
   state: boolean = false;
   constructor() { }

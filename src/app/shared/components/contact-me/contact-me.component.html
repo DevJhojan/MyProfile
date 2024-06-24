@@ -1,0 +1,19 @@
+<div class="social-icons" id="s-icons">
+  <ul class="navbar-nav">
+    <li *ngFor="let social of socialIcons" (click)="openOtherPageWindow(social.url)">
+      <div class="btn-social">
+        <i [class]="social.iconClass"></i>
+      </div>
+    </li>
+  </ul>
+  <button
+    (click)="toggleNavbar()"
+    class="btn-social"
+    id="btn-share"
+    data-toggle="tooltip"
+    data-placement="left"
+    title="Contact Me"
+  >
+    Contact Me
+  </button>
+</div>

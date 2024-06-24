@@ -1,4 +1,5 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
+/* To learn more about this file see: https://angular.io/config/tsconfig.*/
+
 
 {
   "compileOnSave": false,
@@ -20,40 +21,18 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ],
+    "lib": ["ES2022", "dom"],
     "paths": {
-      "@models/*":[
-        "src/app/Models"
-      ],
-      "@layouts/*":[
-        "src/app/layouts"
-      ],
-      "@services/*":[
-        "src/app/Service"
-      ],
-      "@share/*":[
-        "src/app/shared"
-      ],
-      "@assets/*":[
-        "src/assets"
-      ],
-      "@func/*":[
-        "src/assets/func"
-      ],
-      "@image/*":[
-        "src/assets/img"
-      ],
-      "@material/*":[
-        "src/app/material"
-      ]
+      "@models/*": ["src/app/models"],
+      "@commons/*": ["src/app/common"],
+      "@services/*": ["src/app/services"],
+      "@shared/*": ["src/app/shared"],
+      "@core/*": ["src/app/core"],
+      "@assets/*": ["src/assets"],
+      "@material/*": ["src/app/material"]
     }
   },
-  "types": [
-    "d3"
-  ],
+  "types": ["d3"],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'Profile',
+    pathMatch: 'full'
+  },
+  {
+    path: 'Profile',
     component: AppComponent,
     children:[
       {
@@ -15,19 +21,15 @@ const routes: Routes = [
       {
         path: 'home',
         title: 'Home',
-        loadChildren: () =>
-        import('./home/home.module').then((home) => home.HomeModule),
-      },
-      {
-        path: 'search-me',
-        title: 'Search me',
-        loadComponent: () =>
-          import('./search-me/search-me.component').then(
-            (searchMe) => searchMe.SearchMeComponent
-          ),
+        loadChildren: () => import('./core/core.module').then((home) => home.CoreModule),
       },
     ]
   },
+  {
+    path: 'test',
+    title: 'Test',
+    component: TestComponent,
+  }
 ];
 
 @NgModule({

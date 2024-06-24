@@ -1,0 +1,30 @@
+article {
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  padding: 1rem;
+  margin-top: 2px;
+  text-align: right;
+  border-radius: 1rem;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: var(--shadowStart);
+  img {
+    width: 5rem;
+    height: 100%;
+    transition: all 0.5s;
+    box-shadow: var(--shadowStart);
+    position: relative;
+    padding: 0.5px;
+    border-bottom-right-radius: 70%;
+    border: 3px solid rgb(141, 139, 139);
+    margin-left: 0;
+    background: var(--bgImg);
+    background-size: 800%;
+    animation: glowing 10s linear infinite;
+    overflow: hidden;
+    &:hover {
+      box-shadow: var(--shadowEnd);
+    }
+  }
+}

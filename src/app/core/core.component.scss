@@ -1,0 +1,28 @@
+@use "../../assets/styles/colors.scss" as *;
+@use "../../assets/styles/animations/shadow-animation.scss";
+@use "../../assets/styles/animations/font-animation.scss";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css");
+.content {
+  overflow: hidden scroll;
+  scrollbar-width: none;
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--bgImg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  button {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    padding: 0.5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s all;
+   
+    &:hover {
+      box-shadow: var(--shadowStart);
+    }
+
+  }
+}

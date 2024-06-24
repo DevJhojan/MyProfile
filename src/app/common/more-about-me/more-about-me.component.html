@@ -1,0 +1,11 @@
+<div class="abarcado">
+  <div class="content-btn" *ngIf="isMobileMetod()">
+    <shared-btn-slash *ngFor="let content of contents" [title]="content.titleButton" [content]="true"  [cardsContent]="content.listContent"/>
+  </div>
+  <div class="content-window" *ngIf="!isMobileMetod()">
+    <shared-windows-menu [Contents]="contents" />
+  </div>
+  <button title="Return Back"  (click)="backPage()" >
+    <i class="fa fa-arrow-left fa-2x "></i>
+  </button>
+</div>

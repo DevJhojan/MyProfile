@@ -1,30 +1,42 @@
 export interface ICardProjects{
   img: string,
-  h3: string,
-  h4: string,
-  h5: string,
+  name: string,
+  tool: string,
+  state: string,
+  url: string
 }
 export class CardProjects implements ICardProjects{
+
   img: string;
-  h3: string;
-  h4: string;
-  h5: string;
-  constructor(img:string="", h3:string = "", h4:string = "", h5:string = ""){
+  name: string;
+  tool: string;
+  state: string;
+  url: string;
+  constructor(img:string="", name:string = "", tool:string = "", state:string = "", url: string = ""){
     this.img = img;
-    this.h3 = h3;
-    this.h4 = h4;
-    this.h5 = h5;
+    this.name = name;
+    this.tool = tool;
+    this.state = state;
+    this.url = url;
   }
 }
 export interface ICardNormal{
   h2: string,
   items: string[],
+  itemsObject?:  ItemsObjetc[],
+}
+export interface ItemsObjetc{
+  name: string,
+  img: string,
+  url?: string,
 }
 export class CardNormal implements ICardNormal{
   h2: string;
   items: string[];
-  constructor(h2:string = "", items:string[]=[]){
+  itemsObject?: ItemsObjetc[];
+  constructor(h2:string = "", items:string[]=[], itemsObject: ItemsObjetc[] = []){
     this.h2 = h2;
     this.items = items;
+    this.itemsObject = itemsObject;
   }
 }

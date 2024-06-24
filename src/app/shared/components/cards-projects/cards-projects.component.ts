@@ -11,5 +11,7 @@ export class CardsProjectsComponent implements OnInit {
   constructor() { }
   ngOnInit() {
   }
-
+  otherLocationOpen(url: string){
+    window.open(url);
+  }
 }

@@ -11,6 +11,9 @@ export class ContainerComponent implements OnInit {
   @Input() projects: boolean = false;
   @Input() cardProjects?: ICardProjects[] = []; // this can return null
   @Input() title: string = "Title";
+  @Input() textQ: boolean = false;
+  @Input() textInput?: string = '';
+  @Input() normal: boolean = false; 
   @Input() cardNormals?: ICardNormal[] = [];
   constructor() {}
 

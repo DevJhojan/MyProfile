@@ -6,10 +6,13 @@
       [cardProjects]="project"
     />
   </div>
-  <div *ngIf="!projects">
+  <div *ngIf="normal">
     <shared-cards-normals
       *ngFor="let normal of cardNormals"
       [cardNormal]="normal"
     />
+  </div>
+  <div *ngIf="textQ">
+    <p>{{textInput}}</p>
   </div>
 </div>

@@ -1,1 +1,8 @@
-<p>more-about-me works!</p>
+<div class="abarcado">
+  <div class="content-btn" *ngIf="isMobileMetod()">
+
+  </div>
+  <div class="content-window" *ngIf="!isMobileMetod()">
+    <shared-windows-menu />
+  </div>
+</div>

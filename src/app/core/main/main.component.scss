@@ -70,6 +70,15 @@ main {
       color: var(--text);
       box-shadow: var(--shadowStart);
       border-radius: 1rem;
+      cursor: pointer;
+    }
+  }
+  .content-more{
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 4rem;
+    shared-container{
+      width: 100%;
     }
     common-more-about-me{
       width: 80%;

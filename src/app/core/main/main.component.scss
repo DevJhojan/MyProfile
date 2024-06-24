@@ -67,20 +67,76 @@ main {
       padding: 0.5rem;
       margin-top: 3rem;
       margin-left: 10%;
+      font-weight: bold;
       color: var(--text);
       box-shadow: var(--shadowStart);
       border-radius: 1rem;
+      transition: all 0.3s;
       cursor: pointer;
+
+      &:hover {
+        box-shadow: var(--shadowEnd);
+        transform: translateY(-2px);
+      }
+
+      &:active {
+        background-color: transparent;
+        box-shadow: var(--shadowMid);
+        transform: translateY(0);
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: var(--shadowMid);
+      }
+
+      &::before {
+        content: "";
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          45deg,
+          rgba(255, 255, 255, 0.25),
+          rgba(255, 255, 255, 0)
+        );
+        border-radius: 1rem;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:hover::before {
+        opacity: 1;
+      }
+
+      &::after {
+        content: "";
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 1rem;
+        border: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:hover::after {
+        opacity: 1;
+      }
     }
   }
-  .content-more{
+  .content-more {
     width: 90%;
     margin-left: 2%;
     margin-top: 4rem;
-    shared-container{
+    shared-container {
       width: 100%;
     }
-    common-more-about-me{
+    common-more-about-me {
       width: 80%;
       border: none;
       padding: 0.5rem;

@@ -1,3 +1,16 @@
-<p>
-  windows-menu works!
-</p>
+<main>
+  <div class="container">
+    <div class="container-button"   >
+      <button *ngFor="let contentItem of Contents" (click)="showSubContent(contentItem)">{{contentItem.titleButton}}</button>
+    </div>
+    <div class="sub-contents">
+      <div class="card" *ngFor="let list of content.listContent">
+        <h3>{{list.subTitle}}</h3>
+        <ul>
+          <li>{{list.description}}</li>
+          <li>{{list.date}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>

@@ -4,8 +4,8 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   selector: 'shared-btn-switch-theme',
   template: `
     <div (click)="toogleTheme()">
-      <img *ngIf="isLight" src="assets/img/moon.png" alt="change theme dark" />
-      <img *ngIf="!isLight" src="assets/img/sun.png" alt="chage theme light" />
+      <img *ngIf="!isLight" src="assets/img/moon.png" alt="change theme dark" />
+      <img *ngIf="isLight" src="assets/img/sun.png" alt="chage theme light" />
     </div>
   `,
   styleUrls: ['./btn-switch-theme.component.scss'],

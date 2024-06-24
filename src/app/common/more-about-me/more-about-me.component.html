@@ -3,6 +3,9 @@
 
   </div>
   <div class="content-window" *ngIf="!isMobileMetod()">
-    <shared-windows-menu />
+    <shared-windows-menu [Contents]="contents" />
   </div>
+  <button title="Return Back"  (click)="backPage()" >
+    <i class="fa fa-arrow-left fa-2x "></i>
+  </button>
 </div>

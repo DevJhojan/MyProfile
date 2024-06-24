@@ -2853,8 +2853,8 @@
     },
     {
       "type": "arrow",
-      "version": 269,
-      "versionNonce": 1633449455,
+      "version": 270,
+      "versionNonce": 1414014502,
       "isDeleted": false,
       "id": "5bS22_3KpUbCeJmDevw9d",
       "fillStyle": "solid",
@@ -2876,7 +2876,7 @@
         "type": 2
       },
       "boundElements": [],
-      "updated": 1719083282213,
+      "updated": 1719228213545,
       "link": null,
       "locked": false,
       "startBinding": {

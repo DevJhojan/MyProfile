@@ -7,7 +7,12 @@ import { MainComponent } from './main/main.component';
 import { SeccondComponent } from './seccond/seccond.component';
 import { CommonsModule } from '../common/commons.module';
 import { SharedModule } from '../shared/shared.module';
-
+import {MatDialogModule} from '@angular/material/dialog';
+import {NgIf} from '@angular/common';
+import {MatButtonModule} from '@angular/material/button';
+import {FormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [CoreComponent, MainComponent, SeccondComponent],
@@ -15,7 +20,7 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     CoreRoutingModule,
     CommonsModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class CoreModule { }

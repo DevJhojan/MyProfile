@@ -19,6 +19,7 @@
   padding: 0.2rem;
   transition: all 0.4s;
   color: var(--text);
+  text-align: center;
   img {
     width: 100%;
     height: 100%;
@@ -28,7 +29,9 @@
     color: var(--text);
   }
   &:hover {
-    scale: 1.1;
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
   }
 }
 .social-icons .navbar-nav li {
@@ -98,7 +101,8 @@
       color: var(--text);
     }
     &:hover {
-      scale: 1.1;
+      width: 4.2rem;
+      height: 4.2rem;
     }
   }
   .social-icons .navbar-nav li {

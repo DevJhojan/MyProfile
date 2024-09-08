@@ -1,6 +1,5 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig.*/
 
-
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -29,7 +28,8 @@
       "@shared/*": ["src/app/shared"],
       "@core/*": ["src/app/core"],
       "@assets/*": ["src/assets"],
-      "@material/*": ["src/app/material"]
+      "@material/*": ["src/app/material"],
+      "@data/*": ["src/app/data"]
     }
   },
   "types": ["d3"],

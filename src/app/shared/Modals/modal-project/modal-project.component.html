@@ -1,1 +1,19 @@
-<p>modal-project works!</p>
+<article  class="content" mat-dialog-content>
+  <h1>{{ data.name }}</h1>
+  <div class="slider-image">
+    <button class="nextOrBack" (click)="backImage()">{{ " <- " }}</button>
+
+    <img [src]="this.imageCurren" alt="image" />
+
+    <button class="nextOrBack" (click)="nextImage()">{{ " -> " }}</button>
+  </div>
+  <div class="actions" >
+    <h2>State: {{ this.data.state }}</h2>
+    <h2>Tooling: {{ this.data.tool }}</h2>
+    <button
+      class="viewOrDownload"
+      (click)="routerAction()"
+      [innerHTML]="type() ? 'View Page' : 'Download'"
+    ></button>
+  </div>
+</article>

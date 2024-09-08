@@ -9,6 +9,8 @@ import { ContainerComponent } from './components/container/container.component';
 import { CardsNormalsComponent } from './components/cards-normals/cards-normals.component';
 import { CardsProjectsComponent } from './components/cards-projects/cards-projects.component';
 import { BtnSwitchThemeComponent } from './components/btn-switch-theme/btn-switch-theme.component';
+import { ModalProjectComponent } from './Modals/modal-project/modal-project.component';
+import { ModalOboutComponent } from './Modals/modal-obout/modal-obout.component';
 
 @NgModule({
   imports: [CommonModule],
@@ -33,6 +35,8 @@ import { BtnSwitchThemeComponent } from './components/btn-switch-theme/btn-switc
     ContainerComponent,
     CardsNormalsComponent,
     CardsProjectsComponent,
+    ModalProjectComponent,
+    ModalOboutComponent,
   ],
 })
 export class SharedModule {}

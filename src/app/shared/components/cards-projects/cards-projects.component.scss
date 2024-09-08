@@ -9,7 +9,7 @@ article {
   flex-direction: row;
   justify-content: space-around;
   box-shadow: var(--shadowStart);
-  img {
+  shared-picture {
     width: 5rem;
     height: 100%;
     transition: all 0.5s;

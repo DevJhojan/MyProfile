@@ -1,0 +1,69 @@
+h1 {
+  color: var(--title);
+  background-image: var(--bgImg);
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.slider-image {
+  width: 45rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  img{
+    width: 90%;
+    height: 99%;
+    margin-left: 5px;
+  };
+  .nextOrBack{
+    width: 2rem;
+    color: var(--text);
+  }
+}
+.content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--text);
+  background-image: var(--bgImg);
+  border-radius: 1rem;
+  box-shadow: var(--shadowStart);
+  justify-content: space-around;
+}
+.actions{
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button {
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: var(--shadowStart);
+  padding: 5px;
+  cursor: pointer;
+  &:active{
+    border: none;
+  }
+  &:focus{
+    border: none;
+  }
+  &:hover {
+    background-color: var(--bgColorHover);
+    box-shadow: var(--shadowEnd);
+    color: var(--text);
+    border: none;
+  }
+}
+.viewOrDownload {
+  position: relative;
+  top: 1rem;
+  width: 10rem;
+  height: 2rem;
+  font-size: 150%;
+  color: var(--text);
+  text-shadow: var(--text);
+}

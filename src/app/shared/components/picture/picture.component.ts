@@ -2,10 +2,22 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'shared-picture',
-  template: ` <img [src]="img" alt="MyPhoto" /> `,
+  templateUrl: './picture.component.html',
   styleUrls: ['./picture.component.scss'],
 })
-export class PictureComponent {
-  @Input() img: string = '';
+export class PictureComponent implements OnInit {
+  @Input() img!: string;
+  @Input() alt: string = ''
+
+  public hasLoaded: boolean = false;
   constructor() {}
+  ngOnInit():void {
+		if(!this.img) new Error('url property is required');
+	}
+
+	onLoad():void{
+		setTimeout(()=>{
+			this.hasLoaded = true;
+		}, 1000);
+	}
 }

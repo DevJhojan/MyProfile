@@ -1,23 +1,26 @@
 import { Component, OnInit } from '@angular/core';
+import { skillsData } from '@data/*';
 import { ICardNormal } from '@models/*';
 @Component({
   selector: 'common-skills',
-  templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.scss']
+  template: `
+    <div *ngIf="isMobileMetod()">
+      <shared-btn-slash title="Skills" [normal]="true" [cardsNomal]="skills" />
+    </div>
+    <div *ngIf="!isMobileMetod()">
+      <shared-container title="Skills" [normal]="true" [cardNormals]="skills" />
+    </div>
+  `,
+  styleUrls: ['./skills.component.scss'],
 })
 export class SkillsComponent {
-  skills:ICardNormal[] = [
-    {h2: 'Tooling', items: ["Angular", ".Net", "SQL server", "Mongo DB"]},
-    {h2: 'Soft Skills', items: ["Adaptabilidad", "Liderazgo", "Trabajo en Equipo"]}
-  ]
+  skills: ICardNormal[] = skillsData;
   isMobile: boolean = false;
-  constructor() { }
+  constructor() {}
 
-
-  isMobileMetod():boolean {
+  isMobileMetod(): boolean {
     const mq = window.matchMedia('(max-width: 600px)');
     this.isMobile = mq.matches;
     return this.isMobile;
   }
-
 }

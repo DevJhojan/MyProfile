@@ -31,4 +31,19 @@ export const projectsData: ICardProjects[] = [
       'assets/img/RickAndMorty/5.png',
     ],
   },
+  {
+    img: 'assets/img/FinanceManager/icons.ico',
+    name: 'Finance Manager',
+    tool: 'C# .Net',
+    state: 'Active',
+    type: TypeApp.APPLICATION,
+    url: 'https://github.com/DevJhojanXX/FinanceInstall/raw/main/Finance.zip',
+    imgs: [
+      'assets/img/FinanceManager/1.png',
+      'assets/img/FinanceManager/2.png',
+      'assets/img/FinanceManager/3.png',
+      'assets/img/FinanceManager/4.png',
+      'assets/img/FinanceManager/5.png',
+    ],
+  }
 ];

@@ -7,13 +7,13 @@ export const projectsData: ICardProjects[] = [
     tool: 'Angular',
     state: 'active',
     type: TypeApp.WEB,
-    url: 'https://pokedesk-lilac.vercel.app/pokedesk/search',
+    url: 'https://pokedesk-lilac.vercel.app/Pokedesk',
     imgs: [
-      "assets/img/Pokedesk/1.png",
-      "assets/img/Pokedesk/2.png",
-      "assets/img/Pokedesk/3.png",
-      "assets/img/Pokedesk/4.png",
-      "assets/img/Pokedesk/5.png",
+      'assets/img/Pokedesk/1.png',
+      'assets/img/Pokedesk/2.png',
+      'assets/img/Pokedesk/3.png',
+      'assets/img/Pokedesk/4.png',
+      'assets/img/Pokedesk/5.png',
     ],
   },
   {
@@ -45,5 +45,5 @@ export const projectsData: ICardProjects[] = [
       'assets/img/FinanceManager/4.png',
       'assets/img/FinanceManager/5.png',
     ],
-  }
+  },
 ];

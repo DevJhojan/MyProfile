@@ -7,13 +7,14 @@ export const projectsData: ICardProjects[] = [
     tool: 'Angular',
     state: 'active',
     type: TypeApp.WEB,
-    url: 'https://pokedesk-lilac.vercel.app/Pokedesk',
+    url: 'https://pokedesk-lilac.vercel.app/',
     imgs: [
       'assets/img/Pokedesk/1.png',
       'assets/img/Pokedesk/2.png',
       'assets/img/Pokedesk/3.png',
       'assets/img/Pokedesk/4.png',
       'assets/img/Pokedesk/5.png',
+      'assets/img/Pokedesk/6.png',
     ],
   },
   {

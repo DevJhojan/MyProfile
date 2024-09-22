@@ -29,6 +29,7 @@ export const projectsData: ICardProjects[] = [
       'assets/img/RickAndMorty/2.png',
       'assets/img/RickAndMorty/3.png',
       'assets/img/RickAndMorty/4.png',
+      'assets/img/RickAndMorty/6.png',
       'assets/img/RickAndMorty/5.png',
     ],
   },
